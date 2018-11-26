@@ -1,0 +1,32 @@
+
+A Flourishing citizens are reading proficient.
+O 7 out of 10 Americans are not reading proficient.
+—————
+O  7/10 Americans are not flourishing citizens. 
+
+
+E IF 7/10 citizens are not flourishing citizens is bad,
+A AND Society has a duty to ensure flourishing citizens.
+—————
+E  Society not ensuring its duty for 7/10 citizens is bad.
+
+A Flourishing citizens are reading proficient citizens
+A Society has a duty to ensure flourishing citizens
+—————
+A  Society has a duty to ensure reading proficient citizens
+
+
+A Typographic changes can affect reading proficiency 
+A Hyper-expansion of positive and negative spaces are typographic changes
+—————
+A  Hyper-expansion of positive and negative spaces can affect reading proficiency
+
+A Hyper-expansion of positive and negative spaces can affect reading proficiency
+A The Shaver-Troupe Formulation is hyper-expansion of positive and negative spaces
+—————
+A  The Shaver-Troupe Formulation can affect reading proficiency
+
+A The Shaver-Troupe Formulation can affect reading proficiency
+A The Font Lexend uses the Shaver-Troupe Formulation
+—————
+A  The Font Lexend can affect reading proficiency

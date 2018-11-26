@@ -1,0 +1,124 @@
+Audience Definition
+******
+
+User
+Personal: Individual who struggles with reading.
+Care for Another: Cares for an individual that struggles with reading.
+
+Maker
+Policy: Desires to understand and know. Drafts policy in accordance with wisdom.
+Action: Desires for the Good. Contributes skill in accordance with wisdom.
+
+
+Segmentation of Audience
+******
+
+User
+	Personal
+		Young 
+		Old
+	Care for Another
+		Teacher
+		Guardian
+————————————
+
+Maker
+	Policy
+		Law
+		Data
+	Action
+		Citizen
+		Designer
+
+
+Content Categories and Segmentation 
+******
+
+Define
+	• We live in a world of text.
+	• Reading is essential to navigate the world successfully.
+	• Reading well is not common.
+	• 70% of US population is not proficient in reading.
+	• Typographic factors have been found to impact reading.
+	• Lexend fonts uses state of the art technology and research to help you read well.
+	• With Lexend fonts, set text to your individual, personal, needs.  
+
+Demonstrate
+	Stories of Impact: Before and After
+	• Data/ Research
+	• Testimonials
+		Readers
+		Care takers
+	Process
+	• Research
+	• Techonology
+	• Design		
+
+Call to Action
+	Download and Use Fonts
+	• Where to find Fonts
+	• How to Install Fonts
+	• How to Load Fonts
+	• How to Adjust Fonts [Variable vs. Static Fonts]
+
+	Contribution
+	• Spread the Word
+	• Sub to Patron
+	• Research
+	• Design
+	• Testing
+
+User Flow for Website
+******
+External Source -> 	
+
+INDEX -> Email Signup
+Define
+Demo
+Call to Action
+
+#Email Drip Campaign 
+DEFINE -> 
+DEMO -> 
+CTA -> 
+
+#Conditional Email 
+THANK YOU -> 
+
+Patron Page
+
+
+Patron Targets
+******
+Audience Traffic: 100k views
+Subs conversion: 1k ~ 2K
+@ Level of support: $5
+Revenue per year: $60k ~ $108K
+
+Possible Rewards for Subs:
+	• Postcards w/ Thank you Notes
+	• Monthly Google Hangouts with Lexend Team
+	• Conversations with Experts/ Interviews
+
+
+Audience Traffic Generation Proposal
+******
+Word of Mouth Promotion
+	Drip Email Campaign
+	Total content elements to produce: 25 posts.	
+
+	• Segmented by audience, drip three emails under the categories:
+		• Define
+		• Demonstration
+		• Call to Action
+	• With each email, design content to be sharable. Personalize to Audience Segment.
+	• Make direct prompts to share email with friends/ people who would benefit.
+	• If shared or completed to CTA prompt, send conditional email
+		• Thank you
+		• Thank you email shows appreciation and prompt to sub to Pateron. 
+ 
+Interviews with Content Experts
+	Conduct interviews with experts from Policy and Action Audiences.
+	
+Features by Media/ Publications
+	Package DEFINE, DEMO, CTA content to media channels for feature.
