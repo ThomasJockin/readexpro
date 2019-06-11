@@ -25,4 +25,4 @@ E: <thomas@thomasjockin.com>
 W: <http:/thomasjockin.com>  
 D: Designer of Lexend (derived from Quicksand)
 
-For more information about this font please visit <http://www.revreading.org>
+For more information about this font please visit <http://www.lexend.com>
