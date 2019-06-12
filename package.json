@@ -1,0 +1,37 @@
+{
+  "name": "lexend",
+  "version": "1.0.0",
+  "description": "a microsite demonstrating the awesome capabilities of Lexend",
+  "main": "pages/index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "now-build": "next build && next export -o dist && touch dist/.nojekyll && touch dist/_next/.nojekyll",
+    "predeploy": "next build && next export -o dist && touch dist/.nojekyll",
+    "deploy": "gh-pages -t -d dist",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "micah rich",
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/core": "^10.0.10",
+    "@emotion/styled": "^10.0.11",
+    "@mdx-js/loader": "^1.0.19",
+    "@nivo/bar": "^0.58.0",
+    "@zeit/next-mdx": "^1.2.0",
+    "babel-plugin-emotion": "^10.0.9",
+    "markdown-to-jsx": "^6.9.4",
+    "ms": "^2.1.1",
+    "next": "^8.1.0",
+    "parse-ms": "^2.1.0",
+    "pretty-ms": "^5.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-spring": "^8.0.20",
+    "react-variable-fonts": "^1.2.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
