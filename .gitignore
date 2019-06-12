@@ -1,0 +1,5 @@
+.DS_Store
+node_modules
+.next
+yarn-error.log
+dist
