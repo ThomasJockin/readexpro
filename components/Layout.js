@@ -118,14 +118,14 @@ export default ({ children }) => {
       />
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <link rel="apple-touch-icon" sizes="180x180" href="https://micahbrich.github.io/lexend/static/favicon/apple-touch-icon.png"/>
-        <link rel="icon" type="image/png" sizes="32x32" href="https://micahbrich.github.io/lexend/static/favicon/favicon-32x32.png"/>
-        <link rel="icon" type="image/png" sizes="16x16" href="https://micahbrich.github.io/lexend/static/favicon/favicon-16x16.png"/>
-        <link rel="manifest" href="https://micahbrich.github.io/lexend/static/favicon/site.webmanifest"/>
-        <link rel="mask-icon" href="https://micahbrich.github.io/lexend/static/favicon/safari-pinned-tab.svg" color="#5bbad5"/>
-        <link rel="shortcut icon" href="https://micahbrich.github.io/lexend/static/favicon/favicon.ico"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="https://thomasjockin.github.io/lexend/static/favicon/apple-touch-icon.png"/>
+        <link rel="icon" type="image/png" sizes="32x32" href="https://thomasjockin.github.io/lexend/static/favicon/favicon-32x32.png"/>
+        <link rel="icon" type="image/png" sizes="16x16" href="https://thomasjockin.github.io/lexend/static/favicon/favicon-16x16.png"/>
+        <link rel="manifest" href="https://thomasjockin.github.io/lexend/static/favicon/site.webmanifest"/>
+        <link rel="mask-icon" href="https://thomasjockin.github.io/lexend/static/favicon/safari-pinned-tab.svg" color="#5bbad5"/>
+        <link rel="shortcut icon" href="https://thomasjockin.github.io/lexend/static/favicon/favicon.ico"/>
         <meta name="msapplication-TileColor" content="#b91d47"/>
-        <meta name="msapplication-config" content="https://micahbrich.github.io/lexend/static/favicon/browserconfig.xml"/>
+        <meta name="msapplication-config" content="https://thomasjockin.github.io/lexend/static/favicon/browserconfig.xml"/>
         <meta name="theme-color" content="#ffffff"/>
 
 
@@ -134,16 +134,16 @@ export default ({ children }) => {
       <meta name="description" content="Lexend is a variable font empirically shown to significantly improve reading-proficiency."/>
 
       <meta property="og:type" content="website"/>
-      <meta property="og:url" content="https://micahbrich.github.io/lexend/"/>
+      <meta property="og:url" content="https://thomasjockin.github.io/lexend/"/>
       <meta property="og:title" content="Lexend — A Variable Font Designed for Reading"/>
       <meta property="og:description" content="Lexend is a variable font empirically shown to significantly improve reading-proficiency."/>
-      <meta property="og:image" content="https://micahbrich.github.io/lexend/static/social/lexend.jpg"/>
+      <meta property="og:image" content="https://thomasjockin.github.io/lexend/static/social/lexend.jpg"/>
 
       <meta property="twitter:card" content="summary_large_image"/>
-      <meta property="twitter:url" content="https://micahbrich.github.io/lexend/"/>
+      <meta property="twitter:url" content="https://thomasjockin.github.io/lexend/"/>
       <meta property="twitter:title" content="Lexend — A Variable Font Designed for Reading"/>
       <meta property="twitter:description" content="Lexend is a variable font empirically shown to significantly improve reading-proficiency."/>
-      <meta property="twitter:image" content="https://micahbrich.github.io/lexend/static/social/lexend.jpg"/>
+      <meta property="twitter:image" content="https://thomasjockin.github.io/lexend/static/social/lexend.jpg"/>
 
       </Head>
       <Nav>

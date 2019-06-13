@@ -38,6 +38,6 @@ One gotcha (which you might notice in `package.json` on #master and shouldn't ha
 
 ###### Static Files
 
-The `/static` folder is an important part of Next.js, and where we store all our non-dynamic files like fonts, images, etc. Because gh-pages is running in a subdirectory (`micahbrich.github.io/lexend` instead of just `micahbrich.github.io` or `lexend.com`), we have to change the URLs for static files to match whatever directory it's living in.
+The `/static` folder is an important part of Next.js, and where we store all our non-dynamic files like fonts, images, etc. Because gh-pages is running in a subdirectory (`thomasjockin.github.io/lexend` instead of just `thomasjockin.github.io` or `lexend.com`), we have to change the URLs for static files to match whatever directory it's living in.
 
 You'll notice all the static files are absolute URLs, just to make it simple. If you change where this lives, you'll want to do a find & replace to update those static files. There aren't a lot.
