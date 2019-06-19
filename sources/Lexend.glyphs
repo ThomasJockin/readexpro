@@ -1,11 +1,5 @@
 {
 .appVersion = "1230";
-DisplayStrings = (
-"/beh-ar.fina/teh-ar.medi/kaf-ar.medi/meem-ar.init",
-"/behDotless-ar.fina/beh-ar.fina",
-"/behDotless-ar.medi/beh-ar.medi",
-"/teh-ar.medi"
-);
 classes = (
 {
 automatic = 1;
@@ -13,15 +7,11 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 }
 );
-copyright = "Copyright © 2018 by Thomas Jockin. All rights reserved.";
+copyright = "Copyright 2019 The Lexend Project Authors (https://github.com/ThomasJockin/lexend)";
 customParameters = (
 {
 name = licenseURL;
 value = "http://scripts.sil.org/OFL";
-},
-{
-name = vendorID;
-value = LXND;
 },
 {
 name = license;
@@ -43,25 +33,6 @@ value = (
 Name = lexend;
 Tag = LXND;
 }
-);
-},
-{
-name = "Variation Font Origin";
-value = "3D0525B3-6B2A-4787-8D58-1F6DD6CCA7DC";
-},
-{
-name = panose;
-value = (
-2,
-1,
-6,
-1,
-4,
-5,
-7,
-2,
-11,
-4
 );
 }
 );
@@ -179,7 +150,7 @@ value = 1194;
 },
 {
 name = winDescent;
-value = 303;
+value = 390;
 },
 {
 name = hheaAscender;
@@ -192,15 +163,6 @@ value = -250;
 {
 name = hheaLineGap;
 value = 0;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = lexend;
-Location = 0;
-}
-);
 }
 );
 descender = -230;
@@ -253,7 +215,7 @@ value = 1194;
 },
 {
 name = winDescent;
-value = 303;
+value = 390;
 },
 {
 name = hheaAscender;
@@ -266,15 +228,6 @@ value = -250;
 {
 name = hheaLineGap;
 value = 0;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = lexend;
-Location = 100;
-}
-);
 }
 );
 descender = -230;
@@ -41801,47 +41754,6 @@ width = 274;
 unicode = FBB3;
 },
 {
-glyphname = "dotbelow-ar.001";
-lastChange = "2019-06-07 23:57:33 +0000";
-layers = (
-{
-anchors = (
-{
-name = _bottom;
-position = "{137, 0}";
-},
-{
-name = bottom;
-position = "{137, -200}";
-}
-);
-backgroundImage = {
-crop = "{{0, 0}, {282, 267}}";
-imagePath = "../../../Screen Shot 2019-06-07 at 7.24.20 PM.png";
-locked = "1";
-transform = "{24, 0, 0, 24, -3444, -4694}";
-};
-layerId = "3D0525B3-6B2A-4787-8D58-1F6DD6CCA7DC";
-paths = (
-{
-closed = 1;
-nodes = (
-"224 -118 LINE",
-"127 -20 LINE",
-"50 -102 LINE",
-"147 -200 LINE"
-);
-}
-);
-width = 274;
-},
-{
-layerId = "950578AD-3C55-42C9-B412-F732192F54B4";
-width = 600;
-}
-);
-},
-{
 glyphname = "dotcenter-ar";
 lastChange = "2019-01-22 12:13:43 +0000";
 layers = (
@@ -42752,43 +42664,31 @@ instances = (
 {
 customParameters = (
 {
-name = preferredFamilyName;
+name = fileName;
+value = "Lexend-Regular";
+},
+{
+name = familyName;
 value = Lexend;
-},
-{
-name = preferredSubfamilyName;
-value = Default;
-},
-{
-name = WWSFamilyName;
-value = Lexend;
-},
-{
-name = WWSSubfamilyName;
-value = Default;
 }
 );
 interpolationWeight = 0;
 instanceInterpolations = {
 "3D0525B3-6B2A-4787-8D58-1F6DD6CCA7DC" = 1;
 };
-name = Default;
+name = Regular;
 weightClass = Medium;
 widthClass = "Extra Condensed";
 },
 {
 customParameters = (
 {
-name = preferredSubfamilyName;
-value = Kilo;
+name = fileName;
+value = "LexendKilo-Regular";
 },
 {
-name = WWSFamilyName;
-value = Lexend;
-},
-{
-name = WWSSubfamilyName;
-value = Kilo;
+name = familyName;
+value = "Lexend Kilo";
 }
 );
 interpolationWeight = 40;
@@ -42797,23 +42697,19 @@ instanceInterpolations = {
 "3D0525B3-6B2A-4787-8D58-1F6DD6CCA7DC" = 0.6;
 "950578AD-3C55-42C9-B412-F732192F54B4" = 0.4;
 };
-name = Kilo;
+name = Regular;
 weightClass = Medium;
 widthClass = Condensed;
 },
 {
 customParameters = (
 {
-name = preferredSubfamilyName;
-value = Mega;
+name = fileName;
+value = "LexendMega-Regular";
 },
 {
-name = WWSFamilyName;
-value = Lexend;
-},
-{
-name = WWSSubfamilyName;
-value = Mega;
+name = familyName;
+value = "Lexend Mega";
 }
 );
 interpolationCustom = 26;
@@ -42822,23 +42718,19 @@ instanceInterpolations = {
 "3D0525B3-6B2A-4787-8D58-1F6DD6CCA7DC" = 0.44;
 "950578AD-3C55-42C9-B412-F732192F54B4" = 0.56;
 };
-name = Mega;
+name = Regular;
 weightClass = Medium;
 widthClass = SemiCondensed;
 },
 {
 customParameters = (
 {
-name = preferredSubfamilyName;
-value = Giga;
+name = fileName;
+value = "LexendGiga-Regular";
 },
 {
-name = WWSFamilyName;
-value = Lexend;
-},
-{
-name = WWSSubfamilyName;
-value = Giga;
+name = familyName;
+value = "Lexend Giga";
 }
 );
 interpolationWeight = 64;
@@ -42846,22 +42738,18 @@ instanceInterpolations = {
 "3D0525B3-6B2A-4787-8D58-1F6DD6CCA7DC" = 0.36;
 "950578AD-3C55-42C9-B412-F732192F54B4" = 0.64;
 };
-name = Giga;
+name = Regular;
 weightClass = Medium;
 },
 {
 customParameters = (
 {
-name = preferredSubfamilyName;
-value = Tera;
+name = fileName;
+value = "LexendTera-Regular";
 },
 {
-name = WWSFamilyName;
-value = Lexend;
-},
-{
-name = WWSSubfamilyName;
-value = Tera;
+name = familyName;
+value = "Lexend Tera";
 }
 );
 interpolationWeight = 72;
@@ -42869,23 +42757,19 @@ instanceInterpolations = {
 "3D0525B3-6B2A-4787-8D58-1F6DD6CCA7DC" = 0.28;
 "950578AD-3C55-42C9-B412-F732192F54B4" = 0.72;
 };
-name = Tera;
+name = Regular;
 weightClass = Medium;
 widthClass = "Semi Expanded";
 },
 {
 customParameters = (
 {
-name = preferredSubfamilyName;
-value = Peta;
+name = fileName;
+value = "LexendPeta-Regular";
 },
 {
-name = WWSFamilyName;
-value = Lexend;
-},
-{
-name = WWSSubfamilyName;
-value = Peta;
+name = familyName;
+value = "Lexend Peta";
 }
 );
 interpolationWeight = 80;
@@ -42893,30 +42777,26 @@ instanceInterpolations = {
 "3D0525B3-6B2A-4787-8D58-1F6DD6CCA7DC" = 0.2;
 "950578AD-3C55-42C9-B412-F732192F54B4" = 0.8;
 };
-name = Peta;
+name = Regular;
 weightClass = Medium;
 widthClass = Expanded;
 },
 {
 customParameters = (
 {
-name = preferredSubfamilyName;
-value = Exa;
+name = fileName;
+value = "LexendExa-Regular";
 },
 {
-name = WWSFamilyName;
-value = Lexend;
-},
-{
-name = WWSSubfamilyName;
-value = Exa;
+name = familyName;
+value = "Lexend Exa";
 }
 );
 interpolationCustom = 26;
 instanceInterpolations = {
 "950578AD-3C55-42C9-B412-F732192F54B4" = 1;
 };
-name = Exa;
+name = Regular;
 weightClass = Medium;
 widthClass = "Extra Expanded";
 }
@@ -45267,7 +45147,6 @@ slash = -50;
 };
 };
 manufacturer = Lexend;
-manufacturerURL = "http://";
 unitsPerEm = 1000;
 versionMajor = 1;
 versionMinor = 0;
