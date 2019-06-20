@@ -22,19 +22,23 @@ do
 done
 rm ../fonts/ttf/*gasp.ttf
 
-echo "Post processing VFs"
-vfs=$(ls ../fonts/vf/*-VF.ttf)
-for vf in $vfs
-do
-	gftools fix-dsig -f $vf;
-	gftools fix-nonhinting $vf $vf.fix;
-	mv "$vf.fix" $vf;
+echo "Post processing VF"
+vf=../fonts/vf/Lexend-VF.ttf
+gftools fix-dsig -f $vf;
+gftools fix-nonhinting $vf $vf.fix;
+mv "$vf.fix" $vf;
 
-	ttx -f -x "MVAR" $vf; # Drop MVAR. Table has issue in DW
-	rtrip=$(basename -s .ttf $vf)
-	new_file=../fonts/vf/$rtrip.ttx;
-	rm $vf;
-	ttx $new_file
-	rm $new_file
-done
+# Strip MVAR
+ttx -f -x "MVAR" $vf; # Drop MVAR. Table has issue in DW
+rtrip=$(basename -s .ttf $vf)
+new_file=../fonts/vf/$rtrip.ttx;
+rm $vf;
+ttx $new_file
+rm $new_file
+
+# Patch name and stat tables
+ttx -m '../fonts/vf/Lexend-VF.ttf' vf-patch.ttx
+mv vf-patch.ttf "../fonts/vf/Lexend[LXND].ttf"
+rm ../fonts/vf/Lexend-VF.ttf
+
 rm ../fonts/vf/*gasp.ttf
