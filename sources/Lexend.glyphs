@@ -41040,11 +41040,11 @@ instances = (
 customParameters = (
 {
 name = fileName;
-value = "Lexend-Regular";
+value = "LexendDeca-Regular";
 },
 {
 name = familyName;
-value = Lexend;
+value = "Lexend Deca";
 }
 );
 interpolationWeight = 0;
@@ -41059,11 +41059,11 @@ widthClass = "Extra Condensed";
 customParameters = (
 {
 name = fileName;
-value = "LexendKilo-Regular";
+value = "LexendExa-Regular";
 },
 {
 name = familyName;
-value = "Lexend Kilo";
+value = "Lexend Exa";
 }
 );
 interpolationWeight = 40;
@@ -41080,11 +41080,11 @@ widthClass = Condensed;
 customParameters = (
 {
 name = fileName;
-value = "LexendMega-Regular";
+value = "LexendGiga-Regular";
 },
 {
 name = familyName;
-value = "Lexend Mega";
+value = "Lexend Giga";
 }
 );
 interpolationCustom = 26;
@@ -41101,11 +41101,11 @@ widthClass = SemiCondensed;
 customParameters = (
 {
 name = fileName;
-value = "LexendGiga-Regular";
+value = "LexendMega-Regular";
 },
 {
 name = familyName;
-value = "Lexend Giga";
+value = "Lexend Mega";
 }
 );
 interpolationWeight = 64;
@@ -41120,11 +41120,11 @@ weightClass = Medium;
 customParameters = (
 {
 name = fileName;
-value = "LexendTera-Regular";
+value = "LexendPeta-Regular";
 },
 {
 name = familyName;
-value = "Lexend Tera";
+value = "Lexend Peta";
 }
 );
 interpolationWeight = 72;
@@ -41140,11 +41140,11 @@ widthClass = "Semi Expanded";
 customParameters = (
 {
 name = fileName;
-value = "LexendPeta-Regular";
+value = "LexendTera-Regular";
 },
 {
 name = familyName;
-value = "Lexend Peta";
+value = "Lexend Tera";
 }
 );
 interpolationWeight = 80;
@@ -41160,11 +41160,11 @@ widthClass = Expanded;
 customParameters = (
 {
 name = fileName;
-value = "LexendExa-Regular";
+value = "LexendZetta-Regular";
 },
 {
 name = familyName;
-value = "Lexend Exa";
+value = "Lexend Zetta";
 }
 );
 interpolationCustom = 26;
