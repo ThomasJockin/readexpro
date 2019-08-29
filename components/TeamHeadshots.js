@@ -5,7 +5,7 @@ const List = styled("div")`
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: space-around;
   list-style: none;
   padding: 0;
   margin: 1rem auto;
@@ -18,7 +18,8 @@ const List = styled("div")`
   div:nth-child(3) {
     order: 2;
   }
-  @media (max-width: 960px) {
+  @media (max-width: 1600px) {
+    max-width: 1400px;
     div:nth-child(1) {
       order: 1;
       z-index: 11;
@@ -40,6 +41,8 @@ const Headshot = styled(motion.div)`
   background-size: cover;
   border: 0.192rem solid white;
   min-height: 70vh;
+  min-width: 300px;
+  max-width: 400px;
   overflow: hidden;
   border-radius: 0.618rem;
   position: sticky;
@@ -51,12 +54,12 @@ const Headshot = styled(motion.div)`
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06),
       0 28px 50px -12px rgba(0, 0, 0, 0.25);
   }
-  &:before {
+  &:before, &:after {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 3rem 1rem 1rem;
+    padding: 5rem 1rem 1rem;
     background: rgba(0, 0, 0, 0.24);
     background: linear-gradient(transparent, rgba(0,0,0,0.8));
     color: white;
@@ -71,7 +74,23 @@ const Headshot = styled(motion.div)`
     content: "${props => props.name}";
     text-align: center;
   }
-  @media (max-width: 960px) {
+  &:before {
+    font-size: 0.718rem;
+    font-variation-settings: 'LXND' 100;
+    padding: 3rem 1rem 2.292rem;
+    z-index: 11;
+    background: transparent;
+  }
+  &:after {
+    z-index: 10;
+    font-size: 0.618rem;
+    color: rgba(255,255,255,0.7);
+    letter-spacing: 3px;
+    font-variation-settings: 'LXND' 50;
+    content: "${props => props.title}";
+  }
+  @media (max-width: 1600px) {
+    position: relative;
     min-height: 40vh;
     position: relative;
     margin: 1rem auto 4rem;
@@ -90,6 +109,7 @@ const TeamHeadshots = ({ children }) => {
     <List>
       <Headshot
         name="Dr. Bonnie Shaver-Troup"
+        title="Educational Therapist"
         src="/static/images/fake-bonnie.jpeg"
         transition={spring}
         initial={{ y: 0, rotate: -2, scale: 0.99 }}

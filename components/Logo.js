@@ -10,9 +10,7 @@ const isE = letter => letter === "E";
 const list = {
   visible: {
     transition: {
-      when: "afterChildren",
-      staggerChildren: 0.1,
-      staggerDirection: -1
+      when: "afterChildren"
     }
   },
   hidden: {

@@ -66,7 +66,8 @@ const global = css`
     font-variation-settings: "LXND" 20;
     line-height: 1.4;
   }
-  p > a {
+  p > a,
+  h6 > a {
     color: red;
     font-variation-settings: "LXND" 80;
     text-transform: uppercase;
