@@ -49,6 +49,26 @@ const global = css`
     font-weight: normal;
     color: red;
   }
+  hr {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    margin: 4rem auto -2rem;
+    max-width: 960px;
+    position: relative;
+    &:before {
+      display: block;
+      content: " ";
+      border-bottom: 1px dashed red;
+      font-variation-settings: "LXND" 0;
+      width: 100%;
+      height: 1rem;
+      z-index: 10;
+      color: red;
+      text-align: center;
+      position: relative;
+      top: 0;
+    }
+  }
   h2 {
     font-size: 2.7rem;
     line-height: 1.2;

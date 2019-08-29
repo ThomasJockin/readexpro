@@ -1,7 +1,7 @@
 import { css } from '@emotion/core'
 import { useState, useEffect } from "react";
 import useVariableFont from "react-variable-fonts";
-import { Flex, Left, Right, Intro } from "../components";
+import { Flex, Left, Right, Intro, Quote, Banner } from "../components";
 import { TypeChoicesProvider } from "../lib/useTypeChoices";
 import { ReadingSimulatorProvider } from "../lib/useReadingSimulator";
 import AnimatedNumber from "../components/AnimatedNumber";
@@ -27,30 +27,43 @@ import ChartStats from "../components/ChartStats";
 import Form from "../components/EmailForm";
 import ArabicExample from "../components/ArabicExample";
 
+
+
 <Intro>
 
-##### What if we could **change the way the world reads** — starting with a font designed to adjust specifically for your needs?
+##### What if we could <strong>change the way the world reads</strong> — starting with a font designed to adjust specifically for your needs?
 
 # For more than <strong><AnimatedNumber key="dept-of-ed-years">60</AnimatedNumber> years</strong> the **U.S. Department of Education** has found that nearly <strong><AnimatedNumber key="dept-of-ed-70">70%</AnimatedNumber></strong> of the population experiences **some reading difficulty.**
 
 
+<Flex justify="center">
 
-> [Because I never learned to read], I felt really upset… stuck in the box of not having that education I wanted. I felt worthless.
+<Quote source="Lise Crawford, 45, high school dropout" position="left" background="https://source.unsplash.com/B8qIaoeKcfU/900x900" title="Photo by Joel Muniz (unsplash.com/@jmuniz)">
 
-###### Lise Crawford, 45, high school dropout
+[Because I never learned to read], I felt really upset… stuck in the box of not having that education I wanted. I felt worthless.
 
-> With Lexend, my student was reading and _loving_ it. Her participation in the classroom has increased to the point where I have to remind her to “be quiet” in class. Her self-esteem has improved measurably and she is obviously proud of what she is now able to do.
+</Quote>
 
-###### 1st Grade Teacher, California
 
-> I started using Lexend when I was a kid, but recently I raised my Spanish grade from a D to a B in just few weeks by studying my vocabulary list with Lexend.
+<Quote source="Jack, Male College Student, age 20"  background="https://source.unsplash.com/PeRNNIGmoNU/900x900" title="Photo by Thought Catalog (unsplash.com/@thoughtcatalog)">
 
-###### Jack, Male College Student, age 20
+I started using Lexend when I was a kid, but recently I raised my Spanish grade from a D to a B in just few weeks by studying my vocabulary list with Lexend.
+
+</Quote>
+
+
+<Quote source="1st Grade Teacher, California" width="820px" background="https://source.unsplash.com/BqTlkUSphqI/620x900" title="Photo by Emmanuel Phaeton (unsplash.com/@phaeton_vision)">
+
+With Lexend, my student was reading and _loving_ it. Her participation in the classroom has increased to the point where I have to remind her to “be quiet” in class. Her self-esteem has improved measurably and she is obviously proud of what she is now able to do.
+
+</Quote>
+
+</Flex>
 
 </Intro>
 
 
-<Flex>
+<Flex margin="0 auto">
 <Left sticky>
   <Page>
     <ReadingSimulator family="Times New Roman" disabled={['family']} />
@@ -72,7 +85,7 @@ Once struggling readers learn the relationship between sounds and letters, their
 This lack of fluent reading is a problem for poor readers because they tend to read in a labored, disconnected fashion — with a focus on decoding at the word level that makes comprehension of the text difficult, if not impossible.
 
 
-###### [Source • The Reading Teacher, May 2005](https://www.fcrr.org/publications/publicationspdffiles/hudson_lane_pullen_readingfluency_2005.pdf)
+###### [Source • The Reading Teacher, 2005](https://www.fcrr.org/publications/publicationspdffiles/hudson_lane_pullen_readingfluency_2005.pdf)
 
 ## Fluency is measured in Words Correct Per Minute.
 
@@ -139,9 +152,12 @@ In 2000, Bonnie Shaver-Troup theorized that reading performance would improve th
 Applying an evidence-based, user-engaged design model, she identified a continuum of needs. This led to the development of six formulations that alter a text format, creating an immediate improvement in reading performance.
 
 This is where **Lexend** was formed.
+
+
 </Intro>
 
-<Flex>
+
+<Flex margin="0 auto">
 
 <Left>
 

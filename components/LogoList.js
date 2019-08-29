@@ -2,13 +2,13 @@ import styled from "@emotion/styled";
 
 const List = styled("div")`
   display: flex;
-  flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-between;
   list-style: none;
-  padding: 0;
+  padding: 0 1rem;
   margin: 1rem auto;
   max-width: 1200px;
+  flex-wrap: wrap;
 `;
 
 const Logo = styled("img")`

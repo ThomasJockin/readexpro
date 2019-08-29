@@ -10,24 +10,24 @@ const isE = letter => letter === "E";
 const list = {
   visible: {
     transition: {
-      when: "afterChildren"
+      staggerChildren: 0.1
     }
   },
   hidden: {
     transition: {
-      when: "beforeChildren"
+      staggerChildren: 0.1
     }
   }
 };
 
 const items = {
   hidden: e => ({
-    width: e ? 0 : "1.392rem",
+    width: e ? 0 : "1rem",
     opacity: e ? 0 : 1,
     fontVariationSettings: "'LXND' 0"
   }),
   visible: {
-    width: "2rem",
+    width: "1.618rem",
     opacity: 1,
     fontVariationSettings: "'LXND' 100"
   }
@@ -44,7 +44,7 @@ export default () => {
   const [hoverRef, hovering] = useHover();
 
   return (
-    <Logo>
+    <Logo hovering={hovering}>
       <motion.a
         href="#download"
         ref={hoverRef}
@@ -54,6 +54,7 @@ export default () => {
       >
         {letters.map((letter, index) => (
           <Span
+            letter={letter}
             key={`${letter}-${index}`}
             custom={letter === "E"}
             variants={items}
@@ -79,6 +80,12 @@ const Logo = styled(motion.h1)`
   z-index: 100;
   a {
     color: white;
+    span:first-of-type {
+      margin-right: -2px;
+    }
+    span:last-of-type {
+      margin-left: 3px;
+    }
   }
 `;
 

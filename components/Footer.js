@@ -11,7 +11,7 @@ const Footer = styled("footer")`
   z-index: 10;
   p {
     font-size: 0.718rem;
-    margin: 0 1rem 0;
+    margin: 0 0.392rem 0;
     padding: 0;
     a {
       font-size: 0.8em;

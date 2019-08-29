@@ -1,11 +1,33 @@
 import styled from "@emotion/styled";
 import { css } from "@emotion/core";
 
+export const Banner = styled("h6")`
+  background: red;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  margin: 0 auto -6.618rem;
+  font-size: 0.818rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.8);
+  strong {
+    color: white;
+    font-variation-settings: "LXND" 100;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 85%;
+    padding: 0 0.292rem;
+  }
+  @media (max-width: 640px) {
+    text-align: left;
+  }
+`;
 export const Flex = styled("section")`
   display: flex;
   flex-wrap: wrap;
-  margin: 4rem auto;
-  align-items: flex-start;
+  margin: ${props => props.margin || "4rem auto"};
+  align-items: ${props => props.align || "flex-start"};
+  justify-content: ${props => props.justify || "flex-start"};
 `;
 
 export const Right = styled("main")`
@@ -85,7 +107,7 @@ export const Intro = styled("section")`
     }
     @media (max-width: 960px) {
       width: 100%;
-      font-size: 12vw;
+      font-size: 10vw;
       line-height: 1.2;
       margin-left: 0;
       margin-right: 0;
@@ -107,6 +129,8 @@ export const Intro = styled("section")`
     text-align: center;
     @media (max-width: 960px) {
       max-width: 100%;
+      text-align: left;
+      font-size: 3.2rem;
     }
   }
   h5 {
@@ -115,6 +139,11 @@ export const Intro = styled("section")`
     strong {
       color: red;
       font-weight: normal;
+    }
+    @media (max-width: 960px) {
+      max-width: 100%;
+      font-size: 0.918rem;
+      margin-bottom: -6rem;
     }
   }
   h6 {
@@ -210,3 +239,31 @@ export const Intro = styled("section")`
     }
   }
 `;
+
+const QuoteContainer = styled("div")`
+  margin: 0.618rem 1.618rem;
+  blockquote {
+    margin-top: 0;
+    background: url(${props => props.background}) no-repeat top
+      ${props => props.position || "right"} !important;
+    padding-${props => props.position || "right"}: 310px !important;
+    max-width: ${props => props.width || "760px"};
+    background-size: contain !important;
+    left: 0 !important;
+    @media (max-width: 640px) {
+      background: none !important;
+      padding: 1rem !important;
+    }
+  }
+  h6 {
+    text-align: center;
+    max-width: 100%;
+  }
+`;
+
+export const Quote = ({ source, children, ...props }) => (
+  <QuoteContainer {...props}>
+    <blockquote>{children}</blockquote>
+    <h6>{source}</h6>
+  </QuoteContainer>
+);
