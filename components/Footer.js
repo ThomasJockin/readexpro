@@ -8,7 +8,7 @@ const Footer = styled("footer")`
   justify-content: flex-start;
   align-items: flex-start;
   position: relative;
-  z-index: 100;
+  z-index: 10;
   p {
     font-size: 0.718rem;
     margin: 0 1rem 0;

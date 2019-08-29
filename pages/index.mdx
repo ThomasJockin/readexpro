@@ -1,99 +1,159 @@
-import { useState, useEffect } from 'react'
-import useVariableFont from "react-variable-fonts"
-import { Flex, Left, Right, Intro } from '../components'
-import { TypeChoicesProvider } from '../lib/useTypeChoices'
-import { ReadingSimulatorProvider } from '../lib/useReadingSimulator'
-import AnimatedNumber from '../components/AnimatedNumber'
-import styled from '@emotion/styled'
-import texts from '../data/texts'
-import Page from '../components/Page'
-import Layout from '../components/Layout'
-import ReadingSimulator from '../components/ReadingSimulator'
-import { TotalNumberOfWords, TotalAmountOfTime, TotalNumberOfErrors, TotalNumberOfCorrectWords, TotalWordsCorrectPerMinute } from '../components/ReadingStatistics'
-import Text from '../components/Text'
-import Tester from '../components/Tester'
-import Chart from '../components/Chart'
-import ChartStats from '../components/ChartStats'
-import Form from '../components/EmailForm'
-import ArabicExample from '../components/ArabicExample'
-
+import { useState, useEffect } from "react";
+import useVariableFont from "react-variable-fonts";
+import { Flex, Left, Right, Intro } from "../components";
+import { TypeChoicesProvider } from "../lib/useTypeChoices";
+import { ReadingSimulatorProvider } from "../lib/useReadingSimulator";
+import AnimatedNumber from "../components/AnimatedNumber";
+import AnimatedLexend from "../components/AnimatedLexend";
+import LogoList from "../components/LogoList";
+import TeamHeadshots from "../components/TeamHeadshots";
+import styled from "@emotion/styled";
+import texts from "../data/texts";
+import Page from "../components/Page";
+import Layout from "../components/Layout";
+import ReadingSimulator from "../components/ReadingSimulator";
+import {
+  TotalNumberOfWords,
+  TotalAmountOfTime,
+  TotalNumberOfErrors,
+  TotalNumberOfCorrectWords,
+  TotalWordsCorrectPerMinute
+} from "../components/ReadingStatistics";
+import Text from "../components/Text";
+import Tester from "../components/Tester";
+import Chart from "../components/Chart";
+import ChartStats from "../components/ChartStats";
+import Form from "../components/EmailForm";
+import ArabicExample from "../components/ArabicExample";
 
 <Intro>
 
-# Lexend is a variable font empirically shown to significantly improve reading-proficiency.
+##### What if we could **change the way the world reads** — starting with a font designed to adjust specifically for your needs?
 
-As prescription eyeglasses achieve proficiency for persons with short-sightedness, Lexend employs variable font technology to prescribe a personalized axis setting according to the Shaver-Troup Formulations.
+# For more than <strong><AnimatedNumber key="dept-of-ed-years">60</AnimatedNumber> years</strong> the **U.S. Department of Education** has found that nearly <strong><AnimatedNumber key="dept-of-ed-70">70%</AnimatedNumber></strong> of the population experiences **some reading difficulty.**
 
-> ![](https://thomasjockin.github.io/lexend/static/images/noordzji-cover-cut.png) The word is the condition for reading. The word consists of both white and black forms in rhythm units. If the rhythm is weak; the word is poorly formed. If the rhythm is absent; there is no word. Reading is a spatial manner of intervals in both length and breadth.... Ignoring the white by pedagogy places civilization at risk. What is civilization if not the cultural community dependent on reading?
 
-###### Excerpts from “The Stroke” by Gerrit Noordzij
 
-# The US Department of Education reports that **only <AnimatedNumber key="us-dept-of-ed">36</AnimatedNumber>% of students are reading-proficient.** This would appear to confirm Noordzij’s hyperbolic warning.
+> [Because I never learned to read], I felt really upset… stuck in the box of not having that education I wanted. I felt worthless.
 
-###### [Source](https://www.nationsreportcard.gov/reading_math_2015/#reading?grade=4) • Retrieved 30 August 2017
+###### Lise Crawford, 45, high school dropout
 
+> With Lexend, my student was reading and _loving_ it. Her participation in the classroom has increased to the point where I have to remind her to “be quiet” in class. Her self-esteem has improved measurably and she is obviously proud of what she is now able to do.
+
+###### 1st Grade Teacher, California
+
+> I started using Lexend when I was a kid, but recently I raised my Spanish grade from a D to a B in just few weeks by studying my vocabulary list with Lexend.
+
+###### Jack, Male College Student, age 20
 
 </Intro>
+
 
 <Flex>
 <Left sticky>
   <Page>
-    <ReadingSimulator family="Lexend" disabled={['family']} />
+    <ReadingSimulator family="Times New Roman" disabled={['family']} />
   </Page>
 </Left>
 
 <Right>
 
-## Reading-Proficiency is measured in fluency.
+## What makes a good reader?
 
-There is a consensus that reading fluency is one of the defining characteristics of good readers, and a lack of fluency is a common characteristic of poor readers.
+There is a consensus amongst both scientists and teachers  that reading fluency is one of the defining characteristics of good readers, and a lack of fluency is a common characteristic of poor readers.
 
-Differences in reading fluency not only distinguish good readers from poor, but a lack of reading fluency is also a reliable predictor of reading comprehension problems. Once struggling readers learn sound-symbol relationships through intervention and become accurate decoders, their lack of fluency emerges as the next hurdle they face on their way to reading proficiency.
+This is important — because it means we’re approaching this problem from an already established perspective, something that educators have been using for decades.
 
-This lack of fluent reading is a problem for poor readers because they tend to read in a labored, disconnected fashion with a focus on decoding at the word level that makes comprehension of the text difficult, if not impossible.
+Differences in reading fluency not only distinguish good readers from poor, but a lack of reading fluency is also a reliable predictor of reading comprehension problems.
+
+Once struggling readers learn the relationship between sounds and letters, their lack of fluency emerges as the next hurdle they face on their way to reading proficiency.
+
+This lack of fluent reading is a problem for poor readers because they tend to read in a labored, disconnected fashion — with a focus on decoding at the word level that makes comprehension of the text difficult, if not impossible.
 
 
-######  [Source](https://www.fcrr.org/publications/publicationspdffiles/hudson_lane_pullen_readingfluency_2005.pdf)
+###### [Source • The Reading Teacher, May 2005](https://www.fcrr.org/publications/publicationspdffiles/hudson_lane_pullen_readingfluency_2005.pdf)
 
 ## Fluency is measured in Words Correct Per Minute.
 
 A student reads a story with <TotalNumberOfWords/> words in <TotalAmountOfTime/>. She made <TotalNumberOfErrors/> errors. To determine WCPM (Words Correct Per Minute):
 
-1. <p>Count the total number of words.</p>
-  <pre><code><TotalNumberOfWords/> words</code></pre>
-2. <p>Count the number of mistakes.</p>
-  <pre><code><TotalNumberOfErrors/> mistakes</code></pre>
-3. <p>Take the number of words minus the number of mistakes = number of words read correctly.</p>
-  <pre><code><TotalNumberOfWords/> words - <TotalNumberOfErrors/> mistakes = <TotalNumberOfCorrectWords/> correct words</code></pre>
-4. <p>Convert the time it took to read the passage to seconds.</p>
-  <pre><code><TotalAmountOfTime/> to read = <TotalAmountOfTime as="seconds"/>s</code></pre>
-5. <p>Convert the number of seconds to a decimal by dividing the number of seconds by 60. This is the total reading time.</p>
-  <pre><code><TotalAmountOfTime as="seconds"/>s / 60 = <TotalAmountOfTime as="decimal"/> total reading time</code></pre>
-6. <p>Divide the number of words read correctly by the total reading time in decimal form.</p>
-  <pre><code><TotalNumberOfCorrectWords/> / <TotalAmountOfTime as="decimal"/> = <TotalWordsCorrectPerMinute/> Words Correct per Minute (WCPM)</code></pre>
+1. Count the total number of words.
+   <pre>
+     <code>
+       <TotalNumberOfWords /> words
+     </code>
+   </pre>
+2. Count the number of mistakes.
+   <pre>
+     <code>
+       <TotalNumberOfErrors /> mistakes
+     </code>
+   </pre>
+3. Take the number of words minus the number of mistakes = number of words read correctly.
+   <pre>
+     <code>
+       <TotalNumberOfWords /> words - <TotalNumberOfErrors /> mistakes ={" "}
+       <TotalNumberOfCorrectWords /> correct words
+     </code>
+   </pre>
+4. Convert the time it took to read the passage to seconds.
+   <pre>
+     <code>
+       <TotalAmountOfTime /> to read = <TotalAmountOfTime as="seconds" />s
+     </code>
+   </pre>
+5. Convert the number of seconds to a decimal by dividing the number of seconds by 60. This is the total reading time.
+   <pre>
+     <code>
+       <TotalAmountOfTime as="seconds" />s / 60 ={" "}
+       <TotalAmountOfTime as="decimal" /> total reading time
+     </code>
+   </pre>
+6. Divide the number of words read correctly by the total reading time in decimal form.
+   <pre>
+     <code>
+       <TotalNumberOfCorrectWords /> / <TotalAmountOfTime as="decimal" /> ={" "}
+       <TotalWordsCorrectPerMinute /> Words Correct per Minute (WCPM)
+     </code>
+   </pre>
 
 </Right>
 
 </Flex>
 
+
+<Intro>
+
+## What if we could turn it around… with typography?
+
+As an educational therapist, working with hundreds of clients, in 1999, Bonnie Shaver-Troup began observing that reading issues masked the individual’s true capability and intelligence.
+ 
+
+In 2000, Bonnie Shaver-Troup theorized that reading performance would improve through use of:
+
+1. A sans-serif font to reduce cognitive noise
+2. Expanded scaling to improve potential for character recognition
+3. Hyper expansion of character spacing, which creates a greater lag time and reduces potential crowding and masking effects
+
+Applying an evidence-based, user-engaged design model, she identified a continuum of needs. This led to the development of six formulations that alter a text format, creating an immediate improvement in reading performance.
+
+This is where **Lexend** was formed.
+</Intro>
+
 <Flex>
 
 <Left>
 
-## The Shaver-Troup Formulations
+## A variable font empirically shown to significantly improve reading-proficiency.
 
-As an Educational Therapist, Dr. Bonnie Shaver-Troup observed that reading issues masked the individual’s true capability and intelligence. Shaver-Troup theorized that these issues were a sensitivity to typographical factors. She began manipulating multiple text factors to find a match between text format and an individual’s optimized visual processing capabilities.
 
-In clinical practice with both children and adults, Dr. Shaver-Troup used a fluency test to measure the effectiveness of the solution. Test results supported her theory; making the modifications to typography allowed the reader to instantaneously improve Words Correct per Minute (WCPM) scores, which research correlates to increased comprehension.
+Working closely with Dr. Bonnie Shaver-Troup, utilizing her hypotheses and tests, educator and type designer Thomas Jockin began formulating an advanced set of typographic variables to coordinate with one simple idea:
 
-### The Shaver-Troup Formulations Examined
-Three factors were manipulated in increasing intensity. These factors were:
+A font, much like the prescription in a pair of eyeglasses, should change based on the reader’s unique needs.
 
-- Hyper expansion of character spacing
-- Expanded font-outline shapes
-- Sans-serif font to reduce noise
+Combining some of the newest technology in font software and an educated history in professional type design, the two began experimenting & testing how to pull the most important typographic factors in reading-proficiency into a variable font that was designed specifically to fluctuate based on a reader’s Words Correct per Minute score — a typographic system that could be changed to make the words more readable, based on who’s reading them.
 
-### The Demonstration of Effectiveness
+## The Demonstration of Effectiveness
 
 20 third graders, eight males and twelve females, read for one minute in five fonts.
 
@@ -114,6 +174,7 @@ Each student read out loud a passage set in a control of Times New Roman, then f
 
 </Flex>
 
+
 <Flex>
 
 <Left sticky height="76vh">
@@ -124,7 +185,7 @@ Each student read out loud a passage set in a control of Times New Roman, then f
 </Left>
 
 <Right width="50%">
-<Chart/>
+  <Chart />
 </Right>
 
 </Flex>
@@ -145,7 +206,6 @@ Each student read out loud a passage set in a control of Times New Roman, then f
 
 5 had the best score with Lexend Giga
 
-
 110 Avg WCPM for Times New Roman
 
 128 Avg WCPM for Lexend
@@ -153,6 +213,25 @@ Each student read out loud a passage set in a control of Times New Roman, then f
 +19.8% Avg Improvement in WCPM
 
 </ChartStats>
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+<Intro>
+
+
+## Trusted by Incredible Organizations
+
+Lexend has been discussed in two Stanford labs, at HP & Microsoft, was listed on Apple K-12 Assistive Technology from 2003-2005, has recently been referenced in research and patents by Adobe, and is available both on Google Fonts & as an open-source download.
+
+<LogoList/>
+
+</Intro>
+
+
+
 
 <Flex>
 <Left>
@@ -177,42 +256,44 @@ Variable font technology allows for continuous selection of the Lexend Series to
 </Right>
 </Flex>
 
+
 <Intro>
 
+## Team and History
 
-# Speculative Interlude
+<TeamHeadshots>
 
-At the end of the 2018 project, Thomas identified research by Dr. Nadine Chahine on reading proficiency in Arabic. The conclusion and implication of her research support the reasonable proposal to apply the Shaver-Troup Formulation into an Arabic variable font.
+<div>
 
-Aspects of hyper-extension are already familiar in Arabic. The lengthening of text for justification is named kashida which can aid in legibility:
+Founded in 2000, LEXEND came about from a desire to make reading easier for everyone. As an Educational Therapist, Bonnie Shaver-Troup, EdD, observed that reading issues masked the individual’s true capability and intelligence. She theorized that these issues were a sensitivity to typographical factors and began manipulating multiple text factors to find a match between text format and an individual’s optimized visual processing capabilities©.
 
->The kashida is used to give a better character layout on the baseline, and to lessen the cluttering at the joint point between two successive letters of the same word
+After careful research and years of testing a LEXEND beta font, Bonnie was able to determine that while traditional approaches to reading issues focused on cognitive-based solutions, perception-based solutions were faster and more efficient in helping improve reading performance and cognition.
 
-###### Mohamed Jamal Eddine Benatia,Mohamed Elyaakoubi and Azzeddine Lazrek  [Source](http://www.tug.org/TUGboat/tb27-2/tb87benatia.pdf)
+After meeting Thomas Jockin in 2017 — typeface designer and founder of TypeThursday — they combined forces to design an online variable-font solution that would ultimately give the reader complete control over their own reading experience and improve retention and comprehension.
 
-Working with Dr. Chahine and financial support from Google, the Lexend team wishes to investigate if the Shaver-Troup Formulations applied to the Arabic script has the same beneficial fluency properties as we have demonstrated in the Latin script. If proven true, the implications are the following:
+What began as a seed in the home office of an educational therapist has become a world-class reading solution available to English-language readers across the world.
 
-- A richer understanding of human perception that is cross-cultural in scope
-- Demonstration of evidence-based design practices in regard to legibility
-- A contribution to expanding reading-proficiency around the world
+</div>
 
-<ArabicExample/>
-
-## Stay Connected
-
-For updates when Lexend will be available on Google Fonts, news on original research, and to contribute, sign up to Thomas Jockin's Lexend newsletter.
+</TeamHeadshots>
 
 
 </Intro>
 
-<Form/>
+<Intro id="download">
+
+## Download Lexend for free — and start **changing the way the world reads** today.
+
+Enter your name & email below to get a download link, a few awesome tips on how best to utilize this incredible resource, and heads-up when new versions of Lexend are improved and updated.
+
+</Intro>
+
+<Form />
 
 export default ({ children }) => (
   <Layout>
     <TypeChoicesProvider>
-    <ReadingSimulatorProvider>
-      {children}
-    </ReadingSimulatorProvider>
+      <ReadingSimulatorProvider>{children}</ReadingSimulatorProvider>
     </TypeChoicesProvider>
   </Layout>
-)
+);
