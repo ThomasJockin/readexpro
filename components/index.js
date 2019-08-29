@@ -69,6 +69,11 @@ export const Button = styled("button")`
 
 export const Intro = styled("section")`
   padding: 1rem;
+  ${props =>
+    props.margin &&
+    css`
+      margin: ${props.margin};
+    `}
   h1 {
     font-size: 7.2vw;
     line-height: 1.1;
