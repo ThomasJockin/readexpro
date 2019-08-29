@@ -44,7 +44,7 @@ export default () => {
   const [hoverRef, hovering] = useHover();
 
   return (
-    <Logo hovering={hovering}>
+    <Logo>
       <motion.a
         href="#download"
         ref={hoverRef}
