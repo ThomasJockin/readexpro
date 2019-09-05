@@ -29,14 +29,6 @@ export default () => {
   return (
     <Footer>
       <p>
-        Type design by the talented{" "}
-        <a href="http://thomasjockin.com/" target="_blank">
-          Thomas Jockin
-        </a>
-        , endebted by the fine research of{" "}
-        <a href="http://www.lexend.com" target="_blank">
-          Dr. Bonnie Shaver-Troup.
-        </a>{" "}
         Site design & development by{" "}
         <a href="https://micahrich.com/" target="_blank">
           Micah Rich
