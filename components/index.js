@@ -135,7 +135,8 @@ export const Intro = styled("section")`
   }
   h5 {
     margin-bottom: -3.618rem;
-    margin-top: 1rem;
+    margin-top: 3rem;
+    font-size: 1.4rem;
     strong {
       color: red;
       font-weight: normal;
