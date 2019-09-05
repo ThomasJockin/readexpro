@@ -187,24 +187,62 @@ export const Intro = styled("section")`
     max-width: 720px;
     margin: 1.618rem auto;
   }
+`;
+
+const QuoteContainer = styled("div")`
+  margin: 0.618rem 1.618rem;
+  flex: 1 1 45%;
+  max-width: 100%;
+  position: relative;
+  &:nth-of-type(1) {
+    .image {
+      order: 0;
+    }
+  }
   blockquote {
-    font-weight: normal;
-    display: block;
+    box-shadow: 0.392rem 0.618rem 1rem rgba(0, 0, 0, 0.12);
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
     max-width: 760px;
     background: white;
-    padding: 0.618rem 2.618rem;
+    padding: 0;
     margin: 4rem auto 1rem;
     position: relative;
-    left: -2rem;
     border: 0.618rem solid red;
-    @media (max-width: 960px) {
-      max-width: 100%;
-      left: 0;
-      left: 0;
-    }
     p {
-      font-size: 1.2rem;
+      flex: 1 1 auto;
+      font-size: 1rem;
       line-height: 1.618;
+      margin: 3rem 1rem 1rem;
+    }
+    .image {
+      order: 2;
+      display: block;
+      width: 100%;
+      min-width: 200px;
+      max-width: 530px;
+      background: url(${props => props.background}) no-repeat center center;
+      background-size: cover;
+      img {
+        display: none;
+      }
+      @media (max-width: 960px) {
+        background: none;
+        max-width: 100%;
+        order: 1 !important;
+        img {
+          display: block;
+          width: 100%;
+        }
+      }
+    }
+    h6 {
+      max-width: 100%;
+      margin: 0 1rem 3rem;
+      font-variation-settings: "LXND" 20;
+      letter-spacing: 1px;
+      text-transform: uppercase;
     }
     &:before {
       font-weight: normal;
@@ -224,47 +262,32 @@ export const Intro = styled("section")`
       right: 1.618rem;
       color: black;
     }
-    img {
-      max-width: 400px;
-      position: absolute;
-      right: -40%;
-      bottom: -4%;
-      filter: drop-shadow(0.618rem 0.618rem 0.392rem rgba(0, 0, 0, 0.12));
-      @media (max-width: 960px) {
-        display: none;
-        max-width: 220px;
-        position: static;
-        margin-top: -8rem;
-        margin-left: 4rem;
+    @media (max-width: 1220px) {
+      max-width: 100%;
+      left: 0;
+      left: 0;
+    }
+    @media (max-width: 640px) {
+      display: block;
+      background: none !important;
+      padding: 0 !important;
+      .image {
+        max-width: 100%;
       }
     }
   }
 `;
 
-const QuoteContainer = styled("div")`
-  margin: 0.618rem 1.618rem;
-  blockquote {
-    margin-top: 0;
-    background: url(${props => props.background}) no-repeat top
-      ${props => props.position || "right"} !important;
-    padding-${props => props.position || "right"}: 310px !important;
-    max-width: ${props => props.width || "760px"};
-    background-size: contain !important;
-    left: 0 !important;
-    @media (max-width: 640px) {
-      background: none !important;
-      padding: 1rem !important;
-    }
-  }
-  h6 {
-    text-align: center;
-    max-width: 100%;
-  }
-`;
-
-export const Quote = ({ source, children, ...props }) => (
-  <QuoteContainer {...props}>
-    <blockquote>{children}</blockquote>
-    <h6>{source}</h6>
+export const Quote = ({ source, children, background, ...props }) => (
+  <QuoteContainer background={background} {...props}>
+    <blockquote>
+      <div className="image">
+        <img src={background} />
+      </div>
+      <div>
+        {children}
+        <h6>— {source}</h6>
+      </div>
+    </blockquote>
   </QuoteContainer>
 );
