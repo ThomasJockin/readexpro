@@ -18,8 +18,12 @@ const List = styled("div")`
   div:nth-child(3) {
     order: 2;
   }
+  p {
+    font-size: 0.918rem;
+    max-width: 600px;
+  }
   @media (max-width: 1600px) {
-    max-width: 1400px;
+    max-width: 1440px;
     div:nth-child(1) {
       order: 1;
       z-index: 11;
@@ -89,7 +93,7 @@ const Headshot = styled(motion.div)`
     font-variation-settings: 'LXND' 50;
     content: "${props => props.title}";
   }
-  @media (max-width: 1600px) {
+  @media (max-width: 960px) {
     position: relative;
     min-height: 40vh;
     position: relative;
@@ -110,7 +114,7 @@ const TeamHeadshots = ({ children }) => {
       <Headshot
         name="Dr. Bonnie Shaver-Troup"
         title="Educational Therapist"
-        src="/static/images/fake-bonnie.jpeg"
+        src="/static/images/bonnie.jpeg"
         transition={spring}
         initial={{ y: 0, rotate: -2, scale: 0.99 }}
         whileHover={{ y: -10, rotate: -4, scale: 1 }}
