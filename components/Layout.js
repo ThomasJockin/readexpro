@@ -258,7 +258,7 @@ export default ({ children }) => {
       <Nav>
         <Logo />
       </Nav>
-      {children}
+      <div className="content">{children}</div>
       <Footer />
     </>
   );

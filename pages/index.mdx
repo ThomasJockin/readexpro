@@ -1,7 +1,7 @@
 import { css } from '@emotion/core'
 import { useState, useEffect } from "react";
 import useVariableFont from "react-variable-fonts";
-import { Flex, Left, Right, Intro, Quote, Banner } from "../components";
+import { Flex, Left, Right, Section, Intro, Quote, Banner } from "../components";
 import { TypeChoicesProvider } from "../lib/useTypeChoices";
 import { ReadingSimulatorProvider } from "../lib/useReadingSimulator";
 import AnimatedNumber from "../components/AnimatedNumber";
@@ -26,15 +26,18 @@ import Chart from "../components/Chart";
 import ChartStats from "../components/ChartStats";
 import Form from "../components/EmailForm";
 import ArabicExample from "../components/ArabicExample";
-
+import AnimatedText from "../components/AnimatedText";
 
 
 <Intro>
 
-##### What if we could <strong>change the way the world reads</strong> — starting with a font designed to adjust specifically for your needs?
+# What if we could <strong><AnimatedText>change the way the world reads</AnimatedText></strong> — starting with a font designed to adjust specifically for your needs?
 
-# For more than <strong><AnimatedNumber key="dept-of-ed-years">60</AnimatedNumber> years</strong> the **U.S. Department of Education** has found that nearly <strong><AnimatedNumber key="dept-of-ed-70">70%</AnimatedNumber></strong> of the population experiences **some reading difficulty.**
+</Intro>
 
+<Section>
+
+### For more than <strong><AnimatedNumber key="dept-of-ed-years">60</AnimatedNumber> years</strong> the **U.S. Department of Education** has found that nearly <strong><AnimatedNumber key="dept-of-ed-70">70%</AnimatedNumber></strong> of the population experiences **some reading difficulty.**
 
 <Flex justify="center">
 
@@ -60,7 +63,7 @@ With Lexend, my student was reading and _loving_ it. Her participation in the cl
 
 </Flex>
 
-</Intro>
+</Section>
 
 
 <Flex margin="0 auto">
@@ -136,7 +139,7 @@ A student reads a story with <TotalNumberOfWords/> words in <TotalAmountOfTime/>
 </Flex>
 
 
-<Intro>
+<Section margin="8rem auto 4rem">
 
 ## What if we could turn it around… with typography?
 
@@ -154,7 +157,7 @@ These changes led to the development of seven specially-designed fonts, which cr
 This is where **Lexend** was formed.
 
 
-</Intro>
+</Section>
 
 
 <Flex margin="0 auto">
@@ -232,16 +235,16 @@ Each student read out loud a passage set in a control of Times New Roman, then f
 </ChartStats>
 
 
-<Intro margin="4rem auto -5rem">
+<Section margin="8rem auto 0">
 
-
-## Trusted by Incredible Organizations
-
-Lexend has been discussed in two Stanford labs, at HP & Microsoft, was listed on Apple K-12 Assistive Technology from 2003-2005, has recently been referenced in research and patents by Adobe, and is available both on Google Fonts & as an open-source download.
 
 <LogoList/>
 
-</Intro>
+Lexend has been discussed in two Stanford labs, at HP & Microsoft, was listed on Apple K-12 Assistive Technology from 2003-2005, has recently been referenced in research and patents by Adobe, and is available both on Google Fonts & as an open-source download.
+
+
+
+</Section>
 
 
 
@@ -270,7 +273,7 @@ Variable font technology allows for continuous selection of the Lexend Series to
 </Flex>
 
 
-<Intro>
+<Section>
 
 ## Team and History
 
@@ -291,15 +294,15 @@ What began as a seed in the home office of an educational therapist has become a
 </TeamHeadshots>
 
 
-</Intro>
+</Section>
 
-<Intro id="download">
+<Section id="download" margin="4rem auto">
 
 ## Download Lexend for free — and start **changing the way the world reads** today.
 
 Enter your name & email below to get a download link, a few awesome tips on how best to utilize this incredible resource, and heads-up when new versions of Lexend are improved and updated.
 
-</Intro>
+</Section>
 
 <Form />
 

@@ -29,7 +29,7 @@ const FormContainer = styled(animated.form)`
     letter-spacing: 2px;
     display: block;
     font-variation-settings: "LXND" 40;
-    margin: 0 0.392rem;
+    margin: 0.392rem;
     cursor: pointer;
   }
   input[type="text"],
@@ -42,7 +42,10 @@ const FormContainer = styled(animated.form)`
     font-size: 1.8rem;
     -webkit-appearance: none;
     border: 0px;
-    border-bottom: 1px dashed rgba(0, 0, 0, 0.24);
+    border: 1px dashed rgba(0, 0, 0, 0.24);
+    background: rgba(0, 0, 0, 0.01);
+    border-radius: 0.192rem;
+    padding: 0.192rem 0.618rem;
     &:focus {
       outline: none;
       border-bottom: 1px dashed rgba(0, 0, 0, 1);
@@ -97,21 +100,11 @@ const EmailForm = props => {
       >
         <div>
           <label htmlFor="name">Your First Name:</label>
-          <input
-            type="text"
-            name="FNAME"
-            id="name"
-            placeholder="Dr. John H. Watson"
-          />
+          <input type="text" name="FNAME" id="name" />
         </div>
         <div>
           <label htmlFor="email">Your Email:</label>
-          <input
-            type="email"
-            name="EMAIL"
-            id="email"
-            placeholder="changetheworld@science.com"
-          />
+          <input type="email" name="EMAIL" id="email" />
         </div>
 
         <div id="mce-responses" className="clear">
@@ -139,7 +132,7 @@ const EmailForm = props => {
         </div>
 
         <div>
-          <Button value="submit">Send me the fonts</Button>
+          <Button value="submit">Subscribe & Send me these fonts</Button>
         </div>
       </Form>
     </Box>

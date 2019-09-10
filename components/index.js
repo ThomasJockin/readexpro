@@ -28,12 +28,13 @@ export const Flex = styled("section")`
   margin: ${props => props.margin || "4rem auto"};
   align-items: ${props => props.align || "flex-start"};
   justify-content: ${props => props.justify || "flex-start"};
+  max-width: 1440px;
 `;
 
 export const Right = styled("main")`
   margin: 1rem auto;
   padding: 0 1rem;
-  max-width: ${props => props.width || "45%"};
+  max-width: ${props => props.width || "720px"};
   width: ${props => props.width || "auto"};
   min-width: 400px;
   ${props =>
@@ -53,7 +54,7 @@ export const Right = styled("main")`
 export const Left = styled("main")`
   margin: 2.618rem auto;
   padding: 0 1rem;
-  max-width: ${props => props.width || "45%"};
+  max-width: ${props => props.width || "720px"};
   width: ${props => props.width || "auto"};
   height: ${props => props.height || "auto"};
   ${props =>
@@ -89,8 +90,10 @@ export const Button = styled("button")`
   }
 `;
 
-export const Intro = styled("section")`
+export const Section = styled("section")`
   padding: 1rem;
+  max-width: 1440px;
+  margin: 0 auto;
   ${props =>
     props.margin &&
     css`
@@ -124,13 +127,21 @@ export const Intro = styled("section")`
     line-height: 1.5;
   }
   h2 {
-    font-size: 3.6rem;
-    line-height: 1.4;
+    font-size: 3.2rem;
+    line-height: 1.3;
     text-align: center;
     @media (max-width: 960px) {
       max-width: 100%;
       text-align: left;
       font-size: 3.2rem;
+    }
+  }
+  h3 {
+    margin-top: 7rem;
+    font-size: 2.1rem;
+    @media (max-width: 960px) {
+      font-size: 1.8rem;
+      max-width: 100%;
     }
   }
   h5 {
@@ -275,6 +286,31 @@ const QuoteContainer = styled("div")`
         max-width: 100%;
       }
     }
+  }
+`;
+
+export const Intro = styled("section")`
+  background: red;
+  padding: 20vh 10vw;
+  h1 {
+    font-size: 3.2vw;
+    line-height: 1.392;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    span {
+      display: inline-block;
+    }
+    strong {
+      color: white;
+    }
+    @media (max-width: 960px) {
+      font-size: 2.1rem;
+    }
+  }
+  @media (max-width: 960px) {
+    padding: 8vh 6vw;
   }
 `;
 
