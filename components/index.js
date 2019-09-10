@@ -1,5 +1,15 @@
 import styled from "@emotion/styled";
-import { css } from "@emotion/core";
+import { jsx, css, keyframes } from "@emotion/core";
+
+const fadeIn = keyframes`
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+`;
 
 export const Banner = styled("h6")`
   background: red;
@@ -293,6 +303,7 @@ export const Intro = styled("section")`
   background: red;
   padding: 20vh 10vw;
   h1 {
+    animation: ${fadeIn} 900ms ease-in-out;
     font-size: 3.2vw;
     line-height: 1.392;
     color: white;
