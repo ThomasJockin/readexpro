@@ -1276,9 +1276,9 @@ var global = Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["css"])(_template
       lineNumber: 212
     },
     __self: this
-  }, "Lexend \u2014 A Variable Font Designed for Reading"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
+  }, "Lexend \u2014 Change the way the world reads."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     name: "title",
-    content: "Lexend \u2014 A Variable Font Designed for Reading",
+    content: "Lexend \u2014 Change the way the world reads.",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 213
@@ -1286,10 +1286,10 @@ var global = Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["css"])(_template
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     name: "description",
-    content: "Lexend is a variable font empirically shown to significantly improve reading-proficiency.",
+    content: "Lexend \u2014 Change the way the world reads.",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 217
+      lineNumber: 214
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
@@ -1297,7 +1297,7 @@ var global = Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["css"])(_template
     content: "website",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 222
+      lineNumber: 219
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
@@ -1305,31 +1305,31 @@ var global = Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["css"])(_template
     content: "https://thomasjockin.github.io/lexend/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 223
+      lineNumber: 220
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     property: "og:title",
-    content: "Lexend \u2014 A Variable Font Designed for Reading",
+    content: "Lexend \u2014 Change the way the world reads.",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 227
+      lineNumber: 224
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     property: "og:description",
-    content: "Lexend is a variable font empirically shown to significantly improve reading-proficiency.",
+    content: "Lexend \u2014 Change the way the world reads.",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 231
+      lineNumber: 228
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     property: "og:image",
-    content: "https://thomasjockin.github.io/lexend/static/social/lexend.jpg",
+    content: "https://thomasjockin.github.io/lexend/static/social/lexend-v2.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 235
+      lineNumber: 232
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
@@ -1337,7 +1337,7 @@ var global = Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["css"])(_template
     content: "summary_large_image",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 240
+      lineNumber: 237
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
@@ -1345,56 +1345,56 @@ var global = Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["css"])(_template
     content: "https://thomasjockin.github.io/lexend/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 241
+      lineNumber: 238
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     property: "twitter:title",
-    content: "Lexend \u2014 A Variable Font Designed for Reading",
+    content: "Lexend \u2014 Change the way the world reads.",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 245
+      lineNumber: 242
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     property: "twitter:description",
-    content: "Lexend is a variable font empirically shown to significantly improve reading-proficiency.",
+    content: "Lexend \u2014 Change the way the world reads.",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 249
+      lineNumber: 246
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     property: "twitter:image",
-    content: "https://thomasjockin.github.io/lexend/static/social/lexend.jpg",
+    content: "https://thomasjockin.github.io/lexend/static/social/lexend-v2.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 253
+      lineNumber: 250
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Nav__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 258
+      lineNumber: 255
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Logo__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 259
+      lineNumber: 256
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "content",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 261
+      lineNumber: 258
     },
     __self: this
   }, children), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 262
+      lineNumber: 259
     },
     __self: this
   }));
@@ -1582,42 +1582,42 @@ var LogoList = function LogoList() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Logo, {
-    src: "/static/images/logos/adobe.svg",
+    src: "/lexend/static/images/logos/adobe.svg",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Logo, {
-    src: "/static/images/logos/stanford.svg",
+    src: "/lexend/static/images/logos/stanford.svg",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Logo, {
-    src: "/static/images/logos/google.svg",
+    src: "/lexend/static/images/logos/google.svg",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Logo, {
-    src: "/static/images/logos/apple.svg",
+    src: "/lexend/static/images/logos/apple.svg",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Logo, {
-    src: "/static/images/logos/microsoft.svg",
+    src: "/lexend/static/images/logos/microsoft.svg",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Logo, {
-    src: "/static/images/logos/hp.svg",
+    src: "/lexend/static/images/logos/hp.svg",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 28
@@ -2231,7 +2231,7 @@ var _jsxFileName = "/Users/micahbrich/Sites/lexend/components/TeamHeadshots.js";
 
 
 function _templateObject2() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  padding: 0;\n  margin: 2rem;\n  flex: 1 1 10%;\n  background: url(", ") no-repeat center center;\n  background-size: cover;\n  border: 0.192rem solid white;\n  min-height: 70vh;\n  min-width: 300px;\n  max-width: 400px;\n  overflow: hidden;\n  border-radius: 0.618rem;\n  position: sticky;\n  top: 3rem;\n  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06),\n    0 25px 50px -12px rgba(0, 0, 0, 0.25);\n  transition: all 180ms ease-in-out;\n  &:hover {\n    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06),\n      0 28px 50px -12px rgba(0, 0, 0, 0.25);\n  }\n  &:before, &:after {\n    position: absolute;\n    bottom: 0;\n    left: 0;\n    right: 0;\n    padding: 5rem 1rem 1rem;\n    background: rgba(0, 0, 0, 0.24);\n    background: linear-gradient(transparent, rgba(0,0,0,0.8));\n    color: white;\n    text-shadow: 0px 1px 0px rgba(0,0,0,0.7);\n    font-size: 0.8rem;\n    text-transform: uppercase;\n    letter-spacing: 1px;\n    font-variation-settings: 'LXND' 64;\n    display: block;\n    z-index: 10;\n    line-height: 1.7;\n    content: \"", "\";\n    text-align: center;\n  }\n  &:before {\n    font-size: 0.718rem;\n    font-variation-settings: 'LXND' 100;\n    padding: 3rem 1rem 2.292rem;\n    z-index: 11;\n    background: transparent;\n  }\n  &:after {\n    z-index: 10;\n    font-size: 0.618rem;\n    color: rgba(255,255,255,0.7);\n    letter-spacing: 3px;\n    font-variation-settings: 'LXND' 50;\n    content: \"", "\";\n  }\n  @media (max-width: 960px) {\n    position: relative;\n    min-height: 40vh;\n    position: relative;\n    margin: 1rem auto 4rem;\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  padding: 0;\n  margin: 2rem;\n  flex: 1 1 10%;\n  background: url(", ") no-repeat center center;\n  background-size: cover;\n  border: 0.192rem solid white;\n  min-height: 70vh;\n  min-width: 300px;\n  max-width: 400px;\n  overflow: hidden;\n  border-radius: 0.618rem;\n  position: sticky;\n  top: 3rem;\n  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06),\n    0 25px 50px -12px rgba(0, 0, 0, 0.25);\n  transition: all 180ms ease-in-out;\n  &:hover {\n    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06),\n      0 28px 50px -12px rgba(0, 0, 0, 0.25);\n  }\n  &:before, &:after {\n    position: absolute;\n    bottom: 0;\n    left: 0;\n    right: 0;\n    padding: 5rem 1rem 1rem;\n    background: rgba(0, 0, 0, 0.24);\n    background: linear-gradient(transparent, rgba(0,0,0,0.8));\n    color: white;\n    text-shadow: 0px 1px 0px rgba(0,0,0,0.7);\n    font-size: 0.8rem;\n    text-transform: uppercase;\n    letter-spacing: 1px;\n    font-variation-settings: 'LXND' 64;\n    display: block;\n    z-index: 10;\n    line-height: 1.7;\n    content: \"", "\";\n    text-align: center;\n  }\n  &:before {\n    font-size: 0.718rem;\n    font-variation-settings: 'LXND' 100;\n    padding: 3rem 1rem 2.292rem;\n    z-index: 11;\n    background: transparent;\n  }\n  &:after {\n    z-index: 10;\n    font-size: 0.618rem;\n    color: rgba(255,255,255,0.7);\n    letter-spacing: 3px;\n    font-variation-settings: 'LXND' 50;\n    content: \"", "\";\n  }\n  @media (max-width: 1140px) {\n    position: relative;\n    min-height: 40vh;\n    position: relative;\n    margin: 1rem auto 4rem;\n  }\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -2278,7 +2278,7 @@ var TeamHeadshots = function TeamHeadshots(_ref) {
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Headshot, {
     name: "Dr. Bonnie Shaver-Troup",
     title: "Educational Therapist",
-    src: "/static/images/bonnie.jpeg",
+    src: "/lexend/static/images/bonnie.jpeg",
     transition: spring,
     initial: {
       y: 0,
@@ -2298,7 +2298,7 @@ var TeamHeadshots = function TeamHeadshots(_ref) {
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Headshot, {
     name: "Thomas Jockin",
     title: "Type Designer & Educator",
-    src: "/static/images/thomas-jockin.jpg",
+    src: "/lexend/static/images/thomas-jockin.jpg",
     transition: spring,
     initial: {
       y: 0,
@@ -3013,7 +3013,7 @@ function _templateObject7() {
 }
 
 function _templateObject6() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_2__["default"])(["\n  margin: 2.618rem auto;\n  padding: 0 1rem;\n  max-width: ", ";\n  width: ", ";\n  height: ", ";\n  ", "\n  @media (max-width: 960px) {\n    max-width: 100%;\n    position: static;\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_2__["default"])(["\n  margin: 2.618rem auto;\n  padding: 0 1rem;\n  max-width: ", ";\n  width: ", ";\n  height: ", ";\n  ", "\n  @media (max-width: 960px) {\n    /* max-width: 100%; */\n    position: static;\n  }\n"]);
 
   _templateObject6 = function _templateObject6() {
     return data;
@@ -3033,7 +3033,7 @@ function _templateObject5() {
 }
 
 function _templateObject4() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_2__["default"])(["\n  margin: 1rem auto;\n  padding: 0 1rem;\n  max-width: ", ";\n  width: ", ";\n  min-width: 400px;\n  ", "\n  @media (max-width: 960px) {\n    max-width: 100%;\n    width: 100%;\n    min-width: auto;\n    position: static;\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_2__["default"])(["\n  margin: 1rem auto;\n  padding: 0 1rem;\n  max-width: ", ";\n  width: ", ";\n  min-width: 400px;\n  ", "\n  @media (max-width: 960px) {\n    /* max-width: 100%; */\n    width: 100%;\n    min-width: auto;\n    position: static;\n  }\n"]);
 
   _templateObject4 = function _templateObject4() {
     return data;
@@ -3043,7 +3043,7 @@ function _templateObject4() {
 }
 
 function _templateObject3() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_2__["default"])(["\n  display: flex;\n  flex-wrap: wrap;\n  margin: ", ";\n  align-items: ", ";\n  justify-content: ", ";\n  max-width: 1440px;\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_2__["default"])(["\n  display: flex;\n  margin: ", ";\n  align-items: ", ";\n  justify-content: ", ";\n  max-width: 1440px;\n  flex-wrap: ", ";\n  @media (max-width: 960px) {\n    flex-wrap: wrap;\n  }\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -3082,6 +3082,8 @@ var Flex = Object(_emotion_styled__WEBPACK_IMPORTED_MODULE_4__["default"])("sect
   return props.align || "flex-start";
 }, function (props) {
   return props.justify || "flex-start";
+}, function (props) {
+  return props.wrap || "no-wrap";
 });
 var Right = Object(_emotion_styled__WEBPACK_IMPORTED_MODULE_4__["default"])("main")(_templateObject4(), function (props) {
   return props.width || "720px";
@@ -3122,39 +3124,39 @@ var Quote = function Quote(_ref) {
   }, props, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 329
+      lineNumber: 332
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("blockquote", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 330
+      lineNumber: 333
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
     className: "image",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 331
+      lineNumber: 334
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
     src: background,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 332
+      lineNumber: 335
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 334
+      lineNumber: 337
     },
     __self: this
   }, children, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("h6", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 336
+      lineNumber: 339
     },
     __self: this
   }, "\u2014 ", source))));
@@ -56668,6 +56670,7 @@ function MDXContent(_ref2) {
     __self: this
   }, "some reading difficulty.")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_components__WEBPACK_IMPORTED_MODULE_6__["Flex"], {
     justify: "center",
+    wrap: "wrap",
     mdxType: "Flex",
     __source: {
       fileName: _jsxFileName,
@@ -56693,7 +56696,7 @@ function MDXContent(_ref2) {
     __self: this
   }, "I read for a living \u2014 it\u2019s basically been exhausting. It\u2019s a relief to be able to read without stress, without my eyes getting tired.")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_components__WEBPACK_IMPORTED_MODULE_6__["Quote"], {
     source: "Travis, 16, High School Sophomore",
-    background: "/static/images/travis.jpg",
+    background: "/lexend/static/images/travis.jpg",
     title: "Photo by Thought Catalog (unsplash.com/@thoughtcatalog)",
     mdxType: "Quote",
     __source: {
@@ -56710,7 +56713,7 @@ function MDXContent(_ref2) {
   }, "Recently, I started using LEXEND to study my Spanish vocabulary list and raised my Spanish grade from a D to a B in just a few weeks.")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_components__WEBPACK_IMPORTED_MODULE_6__["Quote"], {
     source: "Mrs. C, 1st Grade Teacher, California",
     width: "820px",
-    background: "/static/images/c.jpg",
+    background: "/lexend/static/images/c.jpg",
     title: "Photo by Emmanuel Phaeton (unsplash.com/@phaeton_vision)",
     mdxType: "Quote",
     __source: {
