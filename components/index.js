@@ -135,7 +135,7 @@ export const Section = styled("section")`
   h5,
   h6 {
     font-weight: normal;
-    max-width: 60%;
+    max-width: 75%;
     margin: 1rem auto 0.618rem;
     line-height: 1.5;
   }
