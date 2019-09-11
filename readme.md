@@ -1,6 +1,6 @@
 # Lexend Website
 
-<img width="1093" alt="Screen Shot 2019-06-08 at 7 26 26 PM" src="https://user-images.githubusercontent.com/25366/59153730-83bfec80-8a2f-11e9-8c25-a188c906e3ed.png">
+<img width="1093" alt="Screen Shot 2019-06-08 at 7 26 26 PM" src="https://user-images.githubusercontent.com/25366/64728959-329a1b80-d4aa-11e9-9025-f6536102a21e.png">
 
 An awesome, function website for an awesome, functional font — Lexend is a font designed specifically to increase to reading-proficiency, and it's got some data to back it up. We designed this sucker to show it.
 
