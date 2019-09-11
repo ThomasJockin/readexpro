@@ -4,5 +4,5 @@ const withMDX = require("@zeit/next-mdx")({
 
 module.exports = withMDX({
   pageExtensions: ["js", "jsx", "mdx"],
-  assetPrefix: "/lexend"
+  assetPrefix: process.env.NODE_ENV === "production" ? "/lexend" : ""
 });

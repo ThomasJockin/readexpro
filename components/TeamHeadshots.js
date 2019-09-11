@@ -93,7 +93,7 @@ const Headshot = styled(motion.div)`
     font-variation-settings: 'LXND' 50;
     content: "${props => props.title}";
   }
-  @media (max-width: 960px) {
+  @media (max-width: 1140px) {
     position: relative;
     min-height: 40vh;
     position: relative;

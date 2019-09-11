@@ -34,11 +34,14 @@ export const Banner = styled("h6")`
 `;
 export const Flex = styled("section")`
   display: flex;
-  flex-wrap: wrap;
   margin: ${props => props.margin || "4rem auto"};
   align-items: ${props => props.align || "flex-start"};
   justify-content: ${props => props.justify || "flex-start"};
   max-width: 1440px;
+  flex-wrap: ${props => props.wrap || "no-wrap"};
+  @media (max-width: 960px) {
+    flex-wrap: wrap;
+  }
 `;
 
 export const Right = styled("main")`
@@ -54,7 +57,7 @@ export const Right = styled("main")`
       top: ${props.top || "1rem"};
     `}
   @media (max-width: 960px) {
-    max-width: 100%;
+    /* max-width: 100%; */
     width: 100%;
     min-width: auto;
     position: static;
@@ -74,7 +77,7 @@ export const Left = styled("main")`
       top: ${props.top || "1rem"};
     `}
   @media (max-width: 960px) {
-    max-width: 100%;
+    /* max-width: 100%; */
     position: static;
   }
 `;
