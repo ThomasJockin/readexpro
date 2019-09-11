@@ -209,14 +209,11 @@ export default ({ children }) => {
         />
         <meta name="theme-color" content="#ffffff" />
 
-        <title>Lexend — A Variable Font Designed for Reading</title>
-        <meta
-          name="title"
-          content="Lexend — A Variable Font Designed for Reading"
-        />
+        <title>Lexend — Change the way the world reads.</title>
+        <meta name="title" content="Lexend — Change the way the world reads." />
         <meta
           name="description"
-          content="Lexend is a variable font empirically shown to significantly improve reading-proficiency."
+          content="Lexend — Change the way the world reads."
         />
 
         <meta property="og:type" content="website" />
@@ -226,15 +223,15 @@ export default ({ children }) => {
         />
         <meta
           property="og:title"
-          content="Lexend — A Variable Font Designed for Reading"
+          content="Lexend — Change the way the world reads."
         />
         <meta
           property="og:description"
-          content="Lexend is a variable font empirically shown to significantly improve reading-proficiency."
+          content="Lexend — Change the way the world reads."
         />
         <meta
           property="og:image"
-          content="https://thomasjockin.github.io/lexend/static/social/lexend.jpg"
+          content="https://thomasjockin.github.io/lexend/static/social/lexend-v2.png"
         />
 
         <meta property="twitter:card" content="summary_large_image" />
@@ -244,15 +241,15 @@ export default ({ children }) => {
         />
         <meta
           property="twitter:title"
-          content="Lexend — A Variable Font Designed for Reading"
+          content="Lexend — Change the way the world reads."
         />
         <meta
           property="twitter:description"
-          content="Lexend is a variable font empirically shown to significantly improve reading-proficiency."
+          content="Lexend — Change the way the world reads."
         />
         <meta
           property="twitter:image"
-          content="https://thomasjockin.github.io/lexend/static/social/lexend.jpg"
+          content="https://thomasjockin.github.io/lexend/static/social/lexend-v2.png"
         />
       </Head>
       <Nav>
