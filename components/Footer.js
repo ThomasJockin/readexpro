@@ -8,10 +8,10 @@ const Footer = styled("footer")`
   justify-content: flex-start;
   align-items: flex-start;
   position: relative;
-  z-index: 100;
+  z-index: 10;
   p {
     font-size: 0.718rem;
-    margin: 0 1rem 0;
+    margin: 0 0.392rem 0;
     padding: 0;
     a {
       font-size: 0.8em;
@@ -29,14 +29,6 @@ export default () => {
   return (
     <Footer>
       <p>
-        Type design by the talented{" "}
-        <a href="http://thomasjockin.com/" target="_blank">
-          Thomas Jockin
-        </a>
-        , endebted by the fine research of{" "}
-        <a href="http://www.lexend.com" target="_blank">
-          Dr. Bonnie Shaver-Troup.
-        </a>{" "}
         Site design & development by{" "}
         <a href="https://micahrich.com/" target="_blank">
           Micah Rich

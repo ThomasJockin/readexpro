@@ -1,17 +1,18 @@
-import { useSpring, animated } from 'react-spring'
-import styled from "@emotion/styled"
-import { Button } from '../components'
-import useHover from '../lib/useHover'
+import { useSpring, animated } from "react-spring";
+import styled from "@emotion/styled";
+import { Button } from "../components";
+import useHover from "../lib/useHover";
 
-const Box = styled('div')`
-  border: 1px solid rgba(0,0,0,0.24);
+const Box = styled("div")`
+  border: 1px solid rgba(0, 0, 0, 0.24);
   background: red;
   padding: 3px;
   margin: 5rem 0 6rem;
-`
+`;
 
 const FormContainer = styled(animated.form)`
-  box-shadow: 0px 0.392rem 0.618rem 0 rgba(0,0,0,0.12), 0px 0.618rem 1rem 0 rgba(0,0,0,0.07);
+  box-shadow: 0px 0.392rem 0.618rem 0 rgba(0, 0, 0, 0.12),
+    0px 0.618rem 1rem 0 rgba(0, 0, 0, 0.07);
   border: 0.392rem solid red;
   padding: 1rem 3rem;
   max-width: 700px;
@@ -27,11 +28,12 @@ const FormContainer = styled(animated.form)`
     text-transform: uppercase;
     letter-spacing: 2px;
     display: block;
-    font-variation-settings: 'LXND' 40;
-    margin: 0 0.392rem;
+    font-variation-settings: "LXND" 40;
+    margin: 0.392rem;
     cursor: pointer;
   }
-  input[type=text], input[type=email] {
+  input[type="text"],
+  input[type="email"] {
     margin: 0.618rem 0 0.618rem;
     font-family: "Lexend", Helvetica, Arial, sans-serif;
     line-height: 1.4;
@@ -40,13 +42,16 @@ const FormContainer = styled(animated.form)`
     font-size: 1.8rem;
     -webkit-appearance: none;
     border: 0px;
-    border-bottom: 1px dashed rgba(0,0,0,0.24);
+    border: 1px dashed rgba(0, 0, 0, 0.24);
+    background: rgba(0, 0, 0, 0.01);
+    border-radius: 0.192rem;
+    padding: 0.192rem 0.618rem;
     &:focus {
       outline: none;
-      border-bottom: 1px dashed rgba(0,0,0,1);
+      border-bottom: 1px dashed rgba(0, 0, 0, 1);
     }
   }
-  input[type=checkbox] {
+  input[type="checkbox"] {
     margin-right: 0.618rem;
     position: relative;
     top: -1px;
@@ -57,60 +62,81 @@ const FormContainer = styled(animated.form)`
     margin-top: 0.618rem;
     width: 100%;
   }
-`
-
+`;
 
 const Form = ({ children, ...props }) => {
-  const [hoverRef, hovering] = useHover()
+  const [hoverRef, hovering] = useHover();
 
   const animation = useSpring({
-    transform:  hovering ? 'translate3d(0,0,0) scale(1.024) rotate(0deg)' : 'translate3d(0,0,0) scale(1) rotate(0deg)',
+    transform: hovering
+      ? "translate3d(0,0,0) scale(1.024) rotate(0deg)"
+      : "translate3d(0,0,0) scale(1) rotate(0deg)",
     config: {
       mass: 0.24,
       tension: 200,
       friction: 5
     }
-  })
+  });
 
   return (
-    <FormContainer
-      ref={hoverRef}
-      style={animation}
-      {...props}>
+    <FormContainer ref={hoverRef} style={animation} {...props}>
       {children}
     </FormContainer>
-  )
-}
+  );
+};
 
 const EmailForm = props => {
   return (
     <Box>
-    <Form action="https://mailthis.to/info@lexend.com" method="POST">
-      <input type="hidden" name="_subject" value="Lexend form submission"/>
-      <input type="hidden" name="_after" value="http://www.lexend.com/"/>
-      <input type="hidden" name="_honeypot" value=""/>
-      <input type="hidden" name="_confirmation" value="Excellent! We'll be in touch once there are updates."/>
+      <Form
+        method="POST"
+        action="https://gmail.us3.list-manage.com/subscribe/post?u=d209f7a4c880d02da0497bbec&amp;id=c894fd858d"
+        method="post"
+        id="mc-embedded-subscribe-form"
+        name="mc-embedded-subscribe-form"
+        className="validate"
+        target="_blank"
+        noValidate
+      >
+        <div>
+          <label htmlFor="name">Your First Name:</label>
+          <input type="text" name="FNAME" id="name" />
+        </div>
+        <div>
+          <label htmlFor="email">Your Email:</label>
+          <input type="email" name="EMAIL" id="email" />
+        </div>
 
-      <div>
-        <label htmlFor="name">Your Name:</label>
-        <input type="text" name="name" id="name" placeholder="Sherlock"/>
-      </div>
-      <div>
-        <label htmlFor="email">Your Email:</label>
-        <input type="email" name="email" id="email" placeholder="sh.holmes@science.net"/>
-      </div>
-      <div>
-        <label>
-          <input type="checkbox" name="contribute"/>
-          I'd love to help contribute
-        </label>
-      </div>
-      <div>
-        <Button value="submit">Keep me updated, send me details</Button>
-      </div>
-    </Form>
+        <div id="mce-responses" className="clear">
+          <div
+            className="response"
+            id="mce-error-response"
+            style={{ display: "none" }}
+          />
+          <div
+            className="response"
+            id="mce-success-response"
+            style={{ display: "none" }}
+          />
+        </div>
+        <div
+          style={{ position: "absolute", left: "-5000px" }}
+          aria-hidden="true"
+        >
+          <input
+            type="text"
+            name="b_d209f7a4c880d02da0497bbec_c894fd858d"
+            tabIndex="-1"
+            defaultValue=""
+          />
+        </div>
+
+        <div>
+          <Button value="submit">Subscribe & Send me these fonts</Button>
+        </div>
+      </Form>
     </Box>
-  )
-}
+  );
+};
 
-export default EmailForm
+export default EmailForm;
