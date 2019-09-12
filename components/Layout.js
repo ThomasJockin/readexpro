@@ -175,37 +175,37 @@ export default ({ children }) => {
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href="https://thomasjockin.github.io/lexend/static/favicon/apple-touch-icon.png"
+          href="https://thomasjockin.github.io/static/favicon/apple-touch-icon.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="https://thomasjockin.github.io/lexend/static/favicon/favicon-32x32.png"
+          href="https://thomasjockin.github.io/static/favicon/favicon-32x32.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href="https://thomasjockin.github.io/lexend/static/favicon/favicon-16x16.png"
+          href="https://thomasjockin.github.io/static/favicon/favicon-16x16.png"
         />
         <link
           rel="manifest"
-          href="https://thomasjockin.github.io/lexend/static/favicon/site.webmanifest"
+          href="https://thomasjockin.github.io/static/favicon/site.webmanifest"
         />
         <link
           rel="mask-icon"
-          href="https://thomasjockin.github.io/lexend/static/favicon/safari-pinned-tab.svg"
+          href="https://thomasjockin.github.io/static/favicon/safari-pinned-tab.svg"
           color="#5bbad5"
         />
         <link
           rel="shortcut icon"
-          href="https://thomasjockin.github.io/lexend/static/favicon/favicon.ico"
+          href="https://thomasjockin.github.io/static/favicon/favicon.ico"
         />
         <meta name="msapplication-TileColor" content="#b91d47" />
         <meta
           name="msapplication-config"
-          content="https://thomasjockin.github.io/lexend/static/favicon/browserconfig.xml"
+          content="https://thomasjockin.github.io/static/favicon/browserconfig.xml"
         />
         <meta name="theme-color" content="#ffffff" />
 
@@ -231,7 +231,7 @@ export default ({ children }) => {
         />
         <meta
           property="og:image"
-          content="https://thomasjockin.github.io/lexend/static/social/lexend-v2.png"
+          content="https://thomasjockin.github.io/static/social/lexend-v2.png"
         />
 
         <meta property="twitter:card" content="summary_large_image" />
@@ -249,7 +249,7 @@ export default ({ children }) => {
         />
         <meta
           property="twitter:image"
-          content="https://thomasjockin.github.io/lexend/static/social/lexend-v2.png"
+          content="https://thomasjockin.github.io/static/social/lexend-v2.png"
         />
       </Head>
       <Nav>

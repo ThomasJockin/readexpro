@@ -20,12 +20,12 @@ const Logo = styled("img")`
 
 const LogoList = () => (
   <List>
-    <Logo src="/lexend/static/images/logos/adobe.svg" />
-    <Logo src="/lexend/static/images/logos/stanford.svg" />
-    <Logo src="/lexend/static/images/logos/google.svg" />
-    <Logo src="/lexend/static/images/logos/apple.svg" />
-    <Logo src="/lexend/static/images/logos/microsoft.svg" />
-    <Logo src="/lexend/static/images/logos/hp.svg" />
+    <Logo src="/static/images/logos/adobe.svg" />
+    <Logo src="/static/images/logos/stanford.svg" />
+    <Logo src="/static/images/logos/google.svg" />
+    <Logo src="/static/images/logos/apple.svg" />
+    <Logo src="/static/images/logos/microsoft.svg" />
+    <Logo src="/static/images/logos/hp.svg" />
   </List>
 );
 export default LogoList;
