@@ -1644,7 +1644,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  border-bottom: 10px solid red;\n  position: fixed;\n  bottom: 0;\n  right: 0;\n  left: 0;\n  padding: 0 1rem;\n  display: flex;\n  z-index: 99;\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  border-bottom: 10px solid red;\n  position: fixed;\n  bottom: 0;\n  right: 0;\n  left: 0;\n  padding: 0 1rem;\n  display: flex;\n  z-index: 99;\n  display: none;\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -1654,7 +1654,7 @@ function _templateObject() {
 }
 
 
-/* harmony default export */ __webpack_exports__["default"] = (Object(_emotion_styled__WEBPACK_IMPORTED_MODULE_1__["default"])('nav')(_templateObject()));
+/* harmony default export */ __webpack_exports__["default"] = (Object(_emotion_styled__WEBPACK_IMPORTED_MODULE_1__["default"])("nav")(_templateObject()));
 
 /***/ }),
 
@@ -3088,14 +3088,14 @@ var Flex = Object(_emotion_styled__WEBPACK_IMPORTED_MODULE_4__["default"])("sect
 var Right = Object(_emotion_styled__WEBPACK_IMPORTED_MODULE_4__["default"])("main")(_templateObject4(), function (props) {
   return props.width || "720px";
 }, function (props) {
-  return props.width || "auto";
+  return props.width || "100%";
 }, function (props) {
   return props.sticky && Object(_emotion_core__WEBPACK_IMPORTED_MODULE_5__["css"])(_templateObject5(), props.top || "1rem");
 });
 var Left = Object(_emotion_styled__WEBPACK_IMPORTED_MODULE_4__["default"])("main")(_templateObject6(), function (props) {
   return props.width || "720px";
 }, function (props) {
-  return props.width || "auto";
+  return props.width || "100%";
 }, function (props) {
   return props.height || "auto";
 }, function (props) {
