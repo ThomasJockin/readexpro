@@ -175,37 +175,37 @@ export default ({ children }) => {
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href="https://thomasjockin.github.io/static/favicon/apple-touch-icon.png"
+          href="http://www.lexend.comstatic/favicon/apple-touch-icon.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="https://thomasjockin.github.io/static/favicon/favicon-32x32.png"
+          href="http://www.lexend.comstatic/favicon/favicon-32x32.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href="https://thomasjockin.github.io/static/favicon/favicon-16x16.png"
+          href="http://www.lexend.comstatic/favicon/favicon-16x16.png"
         />
         <link
           rel="manifest"
-          href="https://thomasjockin.github.io/static/favicon/site.webmanifest"
+          href="http://www.lexend.comstatic/favicon/site.webmanifest"
         />
         <link
           rel="mask-icon"
-          href="https://thomasjockin.github.io/static/favicon/safari-pinned-tab.svg"
+          href="http://www.lexend.comstatic/favicon/safari-pinned-tab.svg"
           color="#5bbad5"
         />
         <link
           rel="shortcut icon"
-          href="https://thomasjockin.github.io/static/favicon/favicon.ico"
+          href="http://www.lexend.comstatic/favicon/favicon.ico"
         />
         <meta name="msapplication-TileColor" content="#b91d47" />
         <meta
           name="msapplication-config"
-          content="https://thomasjockin.github.io/static/favicon/browserconfig.xml"
+          content="http://www.lexend.comstatic/favicon/browserconfig.xml"
         />
         <meta name="theme-color" content="#ffffff" />
 
@@ -219,7 +219,7 @@ export default ({ children }) => {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://thomasjockin.github.io/lexend/"
+          content="http://www.lexend.comlexend/"
         />
         <meta
           property="og:title"
@@ -231,13 +231,13 @@ export default ({ children }) => {
         />
         <meta
           property="og:image"
-          content="https://thomasjockin.github.io/static/social/lexend-v2.png"
+          content="http://www.lexend.comstatic/social/lexend-v2.png"
         />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
-          content="https://thomasjockin.github.io/lexend/"
+          content="http://www.lexend.comlexend/"
         />
         <meta
           property="twitter:title"
@@ -249,7 +249,7 @@ export default ({ children }) => {
         />
         <meta
           property="twitter:image"
-          content="https://thomasjockin.github.io/static/social/lexend-v2.png"
+          content="http://www.lexend.comstatic/social/lexend-v2.png"
         />
       </Head>
       <Nav>

@@ -7,7 +7,7 @@
     "dev": "next",
     "build": "next build",
     "now-build": "next build && next export -o dist && touch dist/.nojekyll && touch dist/_next/.nojekyll",
-    "predeploy": "next build && next export -o dist && touch dist/.nojekyll",
+    "predeploy": "next build && next export -o dist && touch dist/.nojekyll && cp CNAME dist/CNAME",
     "deploy": "gh-pages -t -d dist",
     "start": "next start"
   },
