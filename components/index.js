@@ -48,7 +48,7 @@ export const Right = styled("main")`
   margin: 1rem auto;
   padding: 0 1rem;
   max-width: ${props => props.width || "720px"};
-  width: ${props => props.width || "auto"};
+  width: ${props => props.width || "100%"};
   min-width: 400px;
   ${props =>
     props.sticky &&
@@ -68,7 +68,7 @@ export const Left = styled("main")`
   margin: 2.618rem auto;
   padding: 0 1rem;
   max-width: ${props => props.width || "720px"};
-  width: ${props => props.width || "auto"};
+  width: ${props => props.width || "100%"};
   height: ${props => props.height || "auto"};
   ${props =>
     props.sticky &&

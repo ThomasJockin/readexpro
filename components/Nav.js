@@ -1,6 +1,6 @@
-import styled from '@emotion/styled'
+import styled from "@emotion/styled";
 
-export default styled('nav')`
+export default styled("nav")`
   border-bottom: 10px solid red;
   position: fixed;
   bottom: 0;
@@ -9,4 +9,5 @@ export default styled('nav')`
   padding: 0 1rem;
   display: flex;
   z-index: 99;
-`
+  display: none;
+`;
