@@ -2,7 +2,7 @@
 <browserconfig>
     <msapplication>
         <tile>
-            <square150x150logo src="http://www.lexend.comstatic/favicon/mstile-150x150.png"/>
+            <square150x150logo src="https://www.lexend.com/static/favicon/mstile-150x150.png"/>
             <TileColor>#b91d47</TileColor>
         </tile>
     </msapplication>
