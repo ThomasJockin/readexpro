@@ -49,7 +49,7 @@ const Headshot = styled(motion.div)`
   max-width: 400px;
   overflow: hidden;
   border-radius: 0.618rem;
-  position: sticky;
+  /* position: sticky; */
   top: 3rem;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06),
     0 25px 50px -12px rgba(0, 0, 0, 0.25);
