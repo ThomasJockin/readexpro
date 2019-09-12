@@ -1195,7 +1195,7 @@ var global = Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["css"])(_template
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
     rel: "apple-touch-icon",
     sizes: "180x180",
-    href: "https://thomasjockin.github.io/static/favicon/apple-touch-icon.png",
+    href: "https://www.lexend.com/static/favicon/apple-touch-icon.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 175
@@ -1205,7 +1205,7 @@ var global = Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["css"])(_template
     rel: "icon",
     type: "image/png",
     sizes: "32x32",
-    href: "https://thomasjockin.github.io/static/favicon/favicon-32x32.png",
+    href: "https://www.lexend.com/static/favicon/favicon-32x32.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 180
@@ -1215,7 +1215,7 @@ var global = Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["css"])(_template
     rel: "icon",
     type: "image/png",
     sizes: "16x16",
-    href: "https://thomasjockin.github.io/static/favicon/favicon-16x16.png",
+    href: "https://www.lexend.com/static/favicon/favicon-16x16.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 186
@@ -1223,7 +1223,7 @@ var global = Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["css"])(_template
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
     rel: "manifest",
-    href: "https://thomasjockin.github.io/static/favicon/site.webmanifest",
+    href: "https://www.lexend.com/static/favicon/site.webmanifest",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 192
@@ -1231,7 +1231,7 @@ var global = Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["css"])(_template
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
     rel: "mask-icon",
-    href: "https://thomasjockin.github.io/static/favicon/safari-pinned-tab.svg",
+    href: "https://www.lexend.com/static/favicon/safari-pinned-tab.svg",
     color: "#5bbad5",
     __source: {
       fileName: _jsxFileName,
@@ -1240,7 +1240,7 @@ var global = Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["css"])(_template
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
     rel: "shortcut icon",
-    href: "https://thomasjockin.github.io/static/favicon/favicon.ico",
+    href: "https://www.lexend.com/static/favicon/favicon.ico",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 201
@@ -1256,7 +1256,7 @@ var global = Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["css"])(_template
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     name: "msapplication-config",
-    content: "https://thomasjockin.github.io/static/favicon/browserconfig.xml",
+    content: "https://www.lexend.com/static/favicon/browserconfig.xml",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 206
@@ -1302,7 +1302,7 @@ var global = Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["css"])(_template
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     property: "og:url",
-    content: "https://thomasjockin.github.io/lexend/",
+    content: "https://www.lexend.com/lexend/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 220
@@ -1326,7 +1326,7 @@ var global = Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["css"])(_template
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     property: "og:image",
-    content: "https://thomasjockin.github.io/static/social/lexend-v2.png",
+    content: "https://www.lexend.com/static/social/lexend-v2.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 232
@@ -1342,7 +1342,7 @@ var global = Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["css"])(_template
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     property: "twitter:url",
-    content: "https://thomasjockin.github.io/lexend/",
+    content: "https://www.lexend.com/lexend/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 238
@@ -1366,7 +1366,7 @@ var global = Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["css"])(_template
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     property: "twitter:image",
-    content: "https://thomasjockin.github.io/static/social/lexend-v2.png",
+    content: "https://www.lexend.com/static/social/lexend-v2.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 250
@@ -57297,7 +57297,6 @@ function MDXContent(_ref2) {
     },
     __self: this
   }))), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_components__WEBPACK_IMPORTED_MODULE_6__["Right"], {
-    width: "50%",
     mdxType: "Right",
     __source: {
       fileName: _jsxFileName,

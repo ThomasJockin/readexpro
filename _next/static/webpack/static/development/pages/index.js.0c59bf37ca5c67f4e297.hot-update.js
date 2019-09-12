@@ -831,7 +831,6 @@ function MDXContent(_ref2) {
     },
     __self: this
   }))), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_components__WEBPACK_IMPORTED_MODULE_6__["Right"], {
-    width: "50%",
     mdxType: "Right",
     __source: {
       fileName: _jsxFileName,
@@ -1106,4 +1105,4 @@ MDXContent.isMDXComponent = true;
 /***/ })
 
 })
-//# sourceMappingURL=index.js.020a830b0b7cdfbe8eef.hot-update.js.map
+//# sourceMappingURL=index.js.0c59bf37ca5c67f4e297.hot-update.js.map
