@@ -14,7 +14,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  border-bottom: 10px solid red;\n  position: fixed;\n  bottom: 0;\n  right: 0;\n  left: 0;\n  padding: 0 1rem;\n  display: flex;\n  z-index: 99;\n  display: none;\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  border-bottom: 10px solid red;\n  position: fixed;\n  bottom: 0;\n  right: 0;\n  left: 0;\n  padding: 0 1rem;\n  display: flex;\n  z-index: 99;\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -29,4 +29,4 @@ function _templateObject() {
 /***/ })
 
 })
-//# sourceMappingURL=index.js.04b81bc4f68fb7c91a9a.hot-update.js.map
+//# sourceMappingURL=index.js.84cd915d4767a9fc9967.hot-update.js.map
