@@ -9,5 +9,4 @@ export default styled("nav")`
   padding: 0 1rem;
   display: flex;
   z-index: 99;
-  display: none;
 `;
