@@ -217,10 +217,7 @@ export default ({ children }) => {
         />
 
         <meta property="og:type" content="website" />
-        <meta
-          property="og:url"
-          content="https://www.lexend.com/lexend/"
-        />
+        <meta property="og:url" content="https://www.lexend.com/" />
         <meta
           property="og:title"
           content="Lexend — Change the way the world reads."
@@ -235,10 +232,7 @@ export default ({ children }) => {
         />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta
-          property="twitter:url"
-          content="https://www.lexend.com/lexend/"
-        />
+        <meta property="twitter:url" content="https://www.lexend.com/" />
         <meta
           property="twitter:title"
           content="Lexend — Change the way the world reads."
