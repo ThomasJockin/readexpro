@@ -1,4 +1,4 @@
-# RevReading Lexend Font Family
+# Lexend Font Family
 
 Lexend is a variable typeface designed by Bonnie Shaver-Troup and Thomas Jockin in 2018.
 Applying the Shaver-Troup Individually Optimal Text Formation Factors, studies have found readers instantaneously improve their reading fluency.
