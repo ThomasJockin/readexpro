@@ -8,7 +8,7 @@ const Footer = styled("footer")`
   justify-content: flex-start;
   align-items: flex-start;
   position: relative;
-  z-index: 10;
+  z-index: 100;
   p {
     font-size: 0.718rem;
     margin: 0 0.392rem 0;
@@ -33,7 +33,10 @@ export default () => {
         <a href="https://micahrich.com/" target="_blank">
           Micah Rich
         </a>
-        .
+        .<br /> For general questions & contact, email{" "}
+        <a href="mailto:info@lexend.com">info@lexend.com</a>. For inquiries
+        regarding technology & typography, please contact{" "}
+        <a href="mailto:tech@lexend.com">tech@lexend.com</a>
       </p>
     </Footer>
   );
