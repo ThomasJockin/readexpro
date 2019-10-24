@@ -953,7 +953,7 @@ var _jsxFileName = "/Users/micahbrich/Sites/lexend/components/Footer.js";
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  padding: 1.618rem 5.618rem 1.618rem 1.618rem;\n  width: 100%;\n  margin: 0 auto;\n  display: flex;\n  justify-content: flex-start;\n  align-items: flex-start;\n  position: relative;\n  z-index: 10;\n  p {\n    font-size: 0.718rem;\n    margin: 0 0.392rem 0;\n    padding: 0;\n    a {\n      font-size: 0.8em;\n    }\n  }\n  svg {\n    position: relative;\n    top: 0.392rem;\n    opacity: 0.7;\n    max-height: 2.392rem;\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  padding: 1.618rem 5.618rem 1.618rem 1.618rem;\n  width: 100%;\n  margin: 0 auto;\n  display: flex;\n  justify-content: flex-start;\n  align-items: flex-start;\n  position: relative;\n  z-index: 100;\n  p {\n    font-size: 0.718rem;\n    margin: 0 0.392rem 0;\n    padding: 0;\n    a {\n      font-size: 0.8em;\n    }\n  }\n  svg {\n    position: relative;\n    top: 0.392rem;\n    opacity: 0.7;\n    max-height: 2.392rem;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -985,7 +985,27 @@ var Footer = Object(_emotion_styled__WEBPACK_IMPORTED_MODULE_2__["default"])("fo
       lineNumber: 33
     },
     __self: this
-  }, "Micah Rich"), "."));
+  }, "Micah Rich"), ".", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }), " For general questions & contact, email", " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    href: "mailto:info@lexend.com",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, "info@lexend.com"), ". For inquiries regarding technology & typography, please contact", " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    href: "mailto:tech@lexend.com",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, "tech@lexend.com")));
 });
 
 /***/ }),
@@ -1302,7 +1322,7 @@ var global = Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["css"])(_template
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     property: "og:url",
-    content: "https://www.lexend.com/lexend/",
+    content: "https://www.lexend.com/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 220
@@ -1313,7 +1333,7 @@ var global = Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["css"])(_template
     content: "Lexend \u2014 Change the way the world reads.",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 224
+      lineNumber: 221
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
@@ -1321,7 +1341,7 @@ var global = Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["css"])(_template
     content: "Lexend \u2014 Change the way the world reads.",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 228
+      lineNumber: 225
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
@@ -1329,7 +1349,7 @@ var global = Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["css"])(_template
     content: "https://www.lexend.com/static/social/lexend-v2.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 232
+      lineNumber: 229
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
@@ -1337,15 +1357,15 @@ var global = Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["css"])(_template
     content: "summary_large_image",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 237
+      lineNumber: 234
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     property: "twitter:url",
-    content: "https://www.lexend.com/lexend/",
+    content: "https://www.lexend.com/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 238
+      lineNumber: 235
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
@@ -1353,7 +1373,7 @@ var global = Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["css"])(_template
     content: "Lexend \u2014 Change the way the world reads.",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 242
+      lineNumber: 236
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
@@ -1361,7 +1381,7 @@ var global = Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["css"])(_template
     content: "Lexend \u2014 Change the way the world reads.",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 246
+      lineNumber: 240
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
@@ -1369,32 +1389,32 @@ var global = Object(_emotion_core__WEBPACK_IMPORTED_MODULE_2__["css"])(_template
     content: "https://www.lexend.com/static/social/lexend-v2.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 250
+      lineNumber: 244
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Nav__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 255
+      lineNumber: 249
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Logo__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 256
+      lineNumber: 250
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "content",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 258
+      lineNumber: 252
     },
     __self: this
   }, children), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 259
+      lineNumber: 253
     },
     __self: this
   }));
