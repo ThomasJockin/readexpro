@@ -9,5 +9,6 @@
 # Names should be added to this file as:
 # Name <email address>
 
-Bonnie Shaver-Troup <bshavertroup@gmail.com>
-Thomas Jockin <thomas@typethursday.org>
+Bonnie Shaver-Troup <bshavertroup@lexend.com>
+Thomas Jockin <thomas@thomasjockin.com>
+Nadine Chanine <nadine@arabictype.com>
