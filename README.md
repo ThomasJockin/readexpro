@@ -15,9 +15,9 @@ Quicksand was improved in 2016 by Thomas Jockin for Google Fonts. Thomas modifie
 
 - First public release
 
-2020 January 18 (Thomas Jockin) Verison 1.1
+2020 January 18 (Thomas Jockin) Version 1.1
 
-- Expanison to Arabic script
+- Expansion to Arabic script
 - Bug fixes in Latin Character Set
 
 ## Acknowledgements
