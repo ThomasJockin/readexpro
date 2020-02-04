@@ -602,7 +602,7 @@ var _jsxFileName = "/Users/micahbrich/Sites/lexend/components/ChartStats.js";
 
 
 function _templateObject2() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  position: relative;\n  border: 1px solid red;\n  padding: 3rem 0.618rem;\n  text-align: center;\n  flex: 1 1 20%;\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  margin: 0.192rem;\n  p {\n    margin: 0 auto;\n    text-align: center;\n    color: rgba(0,0,0,0.7);\n    font-size: 0.618rem;\n    font-variation-settings: 'LXND' 80;\n    text-transform: uppercase;\n    line-height: 1.6;\n  }\n  h5, strong {\n    font-variation-settings: 'LXND' 0;\n    display: block;\n    font-size: 4.8vw;\n    font-weight: normal;\n    margin: 0.392rem 0;\n    line-height: 1.2;\n    em {\n      font-size: 30%;\n      vertical-align: super;\n      position: relative;\n      top: 10%;\n      margin: 0 0.618rem;\n      font-style: normal;\n    }\n    .extra {\n      font-size: 40%;\n      vertical-align: middle;\n    }\n  }\n  &:nth-child(1) {\n    grid-column: span 2;\n    min-width: 50%;\n    h5 {\n      font-size: 10vw;\n      @media (max-width: 960px) {\n        font-size: 12vw;\n      }\n    }\n  }\n  &:nth-child(10) {\n    grid-column: span 2;\n    min-width: 50%;\n    h5 {\n      font-size: 10vw;\n      @media (max-width: 960px) {\n        font-size: 12vw;\n      }\n    }\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  position: relative;\n  border: 1px solid red;\n  padding: 3rem 0.618rem;\n  text-align: center;\n  flex: 1 1 20%;\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n  margin: 0.192rem;\n  p {\n    margin: 0 auto;\n    text-align: center;\n    color: rgba(0,0,0,0.7);\n    font-size: 0.618rem;\n    font-variation-settings: 'LXND' 80;\n    text-transform: uppercase;\n    line-height: 1.6;\n  }\n  h5, strong {\n    font-variation-settings: 'LXND' 0;\n    display: block;\n    font-size: 4.8vw;\n    font-weight: normal;\n    margin: 0.392rem 0;\n    line-height: 1.2;\n    em {\n      font-size: 30%;\n      vertical-align: super;\n      position: relative;\n      top: 10%;\n      margin: 0 0.618rem;\n      font-style: normal;\n    }\n    .extra {\n      font-size: 40%;\n      vertical-align: middle;\n    }\n  }\n  &:nth-of-type(1) {\n    grid-column: span 2;\n    min-width: 50%;\n    h5 {\n      font-size: 10vw;\n      @media (max-width: 960px) {\n        font-size: 12vw;\n      }\n    }\n  }\n  &:nth-of-type(10) {\n    grid-column: span 2;\n    min-width: 50%;\n    h5 {\n      font-size: 10vw;\n      @media (max-width: 960px) {\n        font-size: 12vw;\n      }\n    }\n  }\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -2261,7 +2261,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  display: flex;\n  flex-wrap: wrap;\n  align-items: flex-start;\n  justify-content: space-around;\n  list-style: none;\n  padding: 0;\n  margin: 1rem auto;\n  div:nth-child(1) {\n    order: 1;\n  }\n  div:nth-child(2) {\n    order: 3;\n  }\n  div:nth-child(3) {\n    order: 2;\n  }\n  p {\n    font-size: 0.918rem;\n    max-width: 600px;\n  }\n  @media (max-width: 1600px) {\n    max-width: 1440px;\n    div:nth-child(1) {\n      order: 1;\n      z-index: 11;\n    }\n    div:nth-child(2) {\n      order: 2;\n    }\n    div:nth-child(3) {\n      order: 3;\n    }\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  display: flex;\n  flex-wrap: wrap;\n  align-items: flex-start;\n  justify-content: space-around;\n  list-style: none;\n  padding: 0;\n  margin: 1rem auto;\n  div:nth-of-type(1) {\n    order: 1;\n  }\n  div:nth-of-type(2) {\n    order: 3;\n  }\n  div:nth-of-type(3) {\n    order: 2;\n  }\n  p {\n    font-size: 0.918rem;\n    max-width: 600px;\n  }\n  @media (max-width: 1600px) {\n    max-width: 1440px;\n    div:nth-of-type(1) {\n      order: 1;\n      z-index: 11;\n    }\n    div:nth-of-type(2) {\n      order: 2;\n    }\n    div:nth-of-type(3) {\n      order: 3;\n    }\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -57221,7 +57221,7 @@ function MDXContent(_ref2) {
       lineNumber: 150
     },
     __self: this
-  }, "Each student read out loud a passage set in a control of Times New Roman, then four of the Lexend Series \u2014 Regular, Deca, Mega, and Giga.")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_components__WEBPACK_IMPORTED_MODULE_6__["Right"], {
+  }, "Each student read out loud a passage set in a control of Times New Roman, then four of the Lexend Series \u2014 Deca, Exa, Giga, and Mega.")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_components__WEBPACK_IMPORTED_MODULE_6__["Right"], {
     sticky: true,
     top: "1vw",
     mdxType: "Right",
@@ -57361,25 +57361,25 @@ function MDXContent(_ref2) {
       lineNumber: 176
     },
     __self: this
-  }, "2 had the best score with Lexend Regular"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+  }, "2 had the best score with Lexend Deca"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 177
     },
     __self: this
-  }, "1 had the best score with Lexend Deca"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+  }, "1 had the best score with Lexend Exa"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 178
     },
     __self: this
-  }, "9 had the best score with Lexend Mega"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+  }, "9 had the best score with Lexend Giga"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 179
     },
     __self: this
-  }, "5 had the best score with Lexend Giga"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+  }, "5 had the best score with Lexend Mega"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 180

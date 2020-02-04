@@ -735,7 +735,7 @@ function MDXContent(_ref2) {
       lineNumber: 150
     },
     __self: this
-  }, "Each student read out loud a passage set in a control of Times New Roman, then four of the Lexend Series \u2014 Regular, Deca, Mega, and Giga.")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_components__WEBPACK_IMPORTED_MODULE_6__["Right"], {
+  }, "Each student read out loud a passage set in a control of Times New Roman, then four of the Lexend Series \u2014 Deca, Exa, Giga, and Mega.")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_components__WEBPACK_IMPORTED_MODULE_6__["Right"], {
     sticky: true,
     top: "1vw",
     mdxType: "Right",
@@ -1105,4 +1105,4 @@ MDXContent.isMDXComponent = true;
 /***/ })
 
 })
-//# sourceMappingURL=index.js.7b3698f7b1b1afbbd5c1.hot-update.js.map
+//# sourceMappingURL=index.js.1e31afa73946086a1e86.hot-update.js.map

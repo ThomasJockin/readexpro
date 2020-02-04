@@ -735,7 +735,7 @@ function MDXContent(_ref2) {
       lineNumber: 150
     },
     __self: this
-  }, "Each student read out loud a passage set in a control of Times New Roman, then four of the Lexend Series \u2014 Regular, Deca, Mega, and Giga.")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_components__WEBPACK_IMPORTED_MODULE_6__["Right"], {
+  }, "Each student read out loud a passage set in a control of Times New Roman, then four of the Lexend Series \u2014 Deca, Exa, Giga, and Mega.")), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_components__WEBPACK_IMPORTED_MODULE_6__["Right"], {
     sticky: true,
     top: "1vw",
     mdxType: "Right",
@@ -875,25 +875,25 @@ function MDXContent(_ref2) {
       lineNumber: 176
     },
     __self: this
-  }, "2 had the best score with Lexend Regular"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+  }, "2 had the best score with Lexend Deca"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 177
     },
     __self: this
-  }, "1 had the best score with Lexend Deca"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+  }, "1 had the best score with Lexend Exa"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 178
     },
     __self: this
-  }, "9 had the best score with Lexend Mega"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+  }, "9 had the best score with Lexend Giga"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 179
     },
     __self: this
-  }, "5 had the best score with Lexend Giga"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+  }, "5 had the best score with Lexend Mega"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 180
@@ -1098,24 +1098,11 @@ function MDXContent(_ref2) {
       lineNumber: 219
     },
     __self: this
-  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_components__WEBPACK_IMPORTED_MODULE_6__["Section"], {
-    mdxType: "Section",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 220
-    },
-    __self: this
-  }, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 221
-    },
-    __self: this
-  }, "For general questions & contact, email info@lexend.com. For inquiries regarding technology & typography, please contact tech@lexend.com.")));
+  }));
 }
 MDXContent.isMDXComponent = true;
 
 /***/ })
 
 })
-//# sourceMappingURL=index.js.c2fe379227f61fbbe9d5.hot-update.js.map
+//# sourceMappingURL=index.js.3c1af94486c4c72ae745.hot-update.js.map
