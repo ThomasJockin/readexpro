@@ -83,7 +83,7 @@ const Stat = styled('div')`
       vertical-align: middle;
     }
   }
-  &:nth-child(1) {
+  &:nth-of-type(1) {
     grid-column: span 2;
     min-width: 50%;
     h5 {
@@ -93,7 +93,7 @@ const Stat = styled('div')`
       }
     }
   }
-  &:nth-child(10) {
+  &:nth-of-type(10) {
     grid-column: span 2;
     min-width: 50%;
     h5 {

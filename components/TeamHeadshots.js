@@ -9,13 +9,13 @@ const List = styled("div")`
   list-style: none;
   padding: 0;
   margin: 1rem auto;
-  div:nth-child(1) {
+  div:nth-of-type(1) {
     order: 1;
   }
-  div:nth-child(2) {
+  div:nth-of-type(2) {
     order: 3;
   }
-  div:nth-child(3) {
+  div:nth-of-type(3) {
     order: 2;
   }
   p {
@@ -24,14 +24,14 @@ const List = styled("div")`
   }
   @media (max-width: 1600px) {
     max-width: 1440px;
-    div:nth-child(1) {
+    div:nth-of-type(1) {
       order: 1;
       z-index: 11;
     }
-    div:nth-child(2) {
+    div:nth-of-type(2) {
       order: 2;
     }
-    div:nth-child(3) {
+    div:nth-of-type(3) {
       order: 3;
     }
   }
