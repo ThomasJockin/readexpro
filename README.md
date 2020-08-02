@@ -20,6 +20,15 @@ Quicksand was improved in 2016 by Thomas Jockin for Google Fonts. Thomas modifie
 - Expansion to Arabic script
 - Bug fixes in Latin Character Set
 
+
+##  Where To Get It
+
+* Via the website's [download form](https://www.lexend.com/#download)
+* Directly from [GitHub](https://github.com/ThomasJockin/lexend/tree/master/fonts)
+* From [CTAN](https://www.ctan.org/pkg/lexend): `tlmgr install lexend`
+* From [Homebrew](https://brew.sh/): `brew cask install font-lexend-deca`
+
+
 ## Acknowledgements
 
 If you make modifications be sure to add your name (N), email (E), web-address (if you have one) (W) and description (D). This list is in alphabetical order.
