@@ -1,5 +1,7 @@
 # Lexend Font Family
 
+## [www.lexend.com](http://www.lexend.com)
+
 Lexend is a variable typeface designed by Bonnie Shaver-Troup and Thomas Jockin in 2018.
 Applying the Shaver-Troup Individually Optimal Text Formation Factors, studies have found readers instantaneously improve their reading fluency.
 
@@ -38,9 +40,9 @@ E: <andrew.paglinawan@gmail.com>
 W: <http://andrewpaglinawan.com>  
 D: Designer of Quicksand (original Roman glyphs)
 
-N: Bonnie Shaver-Troup
-E: bshavertroup@gmail.com
-W: http://www.lexend.com
+N: Bonnie Shaver-Troup  
+E: bshavertroup@gmail.com  
+W: http://www.lexend.com  
 D: Designer of Lexend (derived from Quicksand)
 
 N: Thomas Jockin  
@@ -53,4 +55,4 @@ E: <nadine@arabictype.com>
 W: <http://arabictype.com/>  
 D: Designer of Lexend Arabic (derived from Lexend Latin)
 
-For more information about this font please visit <http://www.lexend.com>
+For more information about this font please visit [www.lexend.com](http://www.lexend.com)
