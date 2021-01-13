@@ -57035,6 +57035,7 @@ idieresis = 50;
 idieresisacute = 50;
 igrave = 40;
 iinvertedbreve = 50;
+imacron = 40;
 parenright = 30;
 slash = -20;
 };
