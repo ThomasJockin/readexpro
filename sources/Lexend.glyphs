@@ -70437,9 +70437,9 @@ width = 785;
 unicode = FEDC;
 },
 {
-color = 6;
+color = 3;
 glyphname = "kaf-ar.medi.v2";
-lastChange = "2021-02-01 11:59:28 +0000";
+lastChange = "2021-02-08 12:25:40 +0000";
 layers = (
 {
 anchors = (
@@ -70588,6 +70588,19 @@ name = top;
 position = "{65, 498}";
 }
 );
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"0 102 LINE",
+"65 102 LINE",
+"65 665 LINE",
+"0 665 LINE"
+);
+}
+);
+};
 layerId = "C40BDF29-379D-4B8A-998F-0DA1802C1622";
 paths = (
 {
@@ -70704,53 +70717,66 @@ width = 529;
 anchors = (
 {
 name = bottom;
-position = "{265, 0}";
+position = "{490, 0}";
 },
 {
 name = top;
-position = "{65, 498}";
+position = "{188, 498}";
 }
 );
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"0 102 LINE",
+"188 102 LINE",
+"188 665 LINE",
+"0 665 LINE"
+);
+}
+);
+};
 layerId = "C2A7E18F-63B3-4B6D-901E-E405E12E49A4";
 paths = (
 {
 closed = 1;
 nodes = (
-"499 0 LINE",
-"499 40 LINE",
-"489 40 LINE SMOOTH",
-"453 40 OFFCURVE",
-"425 55 OFFCURVE",
-"361 133 CURVE SMOOTH",
-"99 451 LINE",
-"97 432 LINE",
-"410 692 LINE",
-"384 722 LINE",
-"65 458 LINE",
-"65 431 LINE",
-"331 107 LINE SMOOTH",
-"400 22 OFFCURVE",
-"439 0 OFFCURVE",
-"489 0 CURVE SMOOTH"
+"915 0 LINE",
+"915 40 LINE",
+"812 40 LINE SMOOTH",
+"755 40 OFFCURVE",
+"670 68 OFFCURVE",
+"594 133 CURVE SMOOTH",
+"222 451 LINE",
+"220 432 LINE",
+"753 692 LINE",
+"727 722 LINE",
+"188 458 LINE",
+"188 431 LINE",
+"564 107 LINE SMOOTH",
+"645 38 OFFCURVE",
+"739 0 OFFCURVE",
+"812 0 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"196 0 LINE SMOOTH",
-"303 0 OFFCURVE",
-"366 20 OFFCURVE",
-"402 67 CURVE",
-"370 91 LINE",
-"342 55 OFFCURVE",
-"292 40 OFFCURVE",
-"196 40 CURVE SMOOTH",
+"421 0 LINE SMOOTH",
+"528 0 OFFCURVE",
+"591 20 OFFCURVE",
+"627 67 CURVE",
+"595 91 LINE",
+"567 55 OFFCURVE",
+"517 40 OFFCURVE",
+"421 40 CURVE SMOOTH",
 "0 40 LINE",
 "0 0 LINE"
 );
 }
 );
-width = 499;
+width = 915;
 }
 );
 },
@@ -77625,8 +77651,9 @@ width = 636;
 unicode = FEF4;
 },
 {
+color = 4;
 glyphname = "yeh-ar.medi.wide";
-lastChange = "2021-02-01 11:59:28 +0000";
+lastChange = "2021-02-08 12:16:18 +0000";
 layers = (
 {
 components = (
@@ -77769,8 +77796,9 @@ width = 573;
 unicode = FEF3;
 },
 {
+color = 4;
 glyphname = "yeh-ar.init.wide";
-lastChange = "2021-02-02 12:04:30 +0000";
+lastChange = "2021-02-08 12:16:18 +0000";
 layers = (
 {
 components = (
@@ -78059,8 +78087,9 @@ width = 636;
 unicode = FE8C;
 },
 {
+color = 4;
 glyphname = "yehHamzaabove-ar.medi.wide";
-lastChange = "2021-02-01 11:59:28 +0000";
+lastChange = "2021-02-08 12:16:18 +0000";
 layers = (
 {
 components = (
@@ -78203,8 +78232,9 @@ width = 573;
 unicode = FE8B;
 },
 {
+color = 4;
 glyphname = "yehHamzaabove-ar.init.wide";
-lastChange = "2021-02-02 12:04:30 +0000";
+lastChange = "2021-02-08 12:16:18 +0000";
 layers = (
 {
 components = (
@@ -119587,7 +119617,7 @@ position = "{131, -243}";
 );
 backgroundImage = {
 crop = "{{0, 0}, {282, 267}}";
-imagePath = "../../Screen Shot 2019-06-07 at 7.24.20 PM.png";
+imagePath = "../../../Desktop/Screen Shot 2019-06-07 at 7.24.20 PM.png";
 locked = "1";
 transform = "{24, 0, 0, 24, -3444, -4694}";
 };
@@ -119643,7 +119673,7 @@ position = "{130, -179}";
 );
 backgroundImage = {
 crop = "{{0, 0}, {282, 267}}";
-imagePath = "../../Screen Shot 2019-06-07 at 7.24.20 PM.png";
+imagePath = "../../../Desktop/Screen Shot 2019-06-07 at 7.24.20 PM.png";
 locked = "1";
 transform = "{24, 0, 0, 24, -3444, -4694}";
 };
@@ -119674,7 +119704,7 @@ position = "{131, -243}";
 );
 backgroundImage = {
 crop = "{{0, 0}, {282, 267}}";
-imagePath = "../../Screen Shot 2019-06-07 at 7.24.20 PM.png";
+imagePath = "../../../Desktop/Screen Shot 2019-06-07 at 7.24.20 PM.png";
 locked = "1";
 transform = "{24, 0, 0, 24, -3444, -4694}";
 };
@@ -119705,7 +119735,7 @@ position = "{130, -179}";
 );
 backgroundImage = {
 crop = "{{0, 0}, {282, 267}}";
-imagePath = "../../Screen Shot 2019-06-07 at 7.24.20 PM.png";
+imagePath = "../../../Desktop/Screen Shot 2019-06-07 at 7.24.20 PM.png";
 locked = "1";
 transform = "{24, 0, 0, 24, -3444, -4694}";
 };
