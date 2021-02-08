@@ -55080,7 +55080,7 @@ width = 1517;
 {
 color = 4;
 glyphname = "behDotless-ar.medi";
-lastChange = "2021-02-01 13:38:41 +0000";
+lastChange = "2021-02-08 12:07:29 +0000";
 layers = (
 {
 anchors = (
@@ -55367,14 +55367,14 @@ closed = 1;
 nodes = (
 "636 0 LINE",
 "636 40 LINE",
-"493 40 LINE SMOOTH",
-"454 40 OFFCURVE",
-"391 66 OFFCURVE",
+"523 40 LINE SMOOTH",
+"475 40 OFFCURVE",
+"399 66 OFFCURVE",
 "356 88 CURVE",
 "334 54 LINE",
-"375 28 OFFCURVE",
-"434 0 OFFCURVE",
-"493 0 CURVE SMOOTH"
+"383 28 OFFCURVE",
+"453 0 OFFCURVE",
+"523 0 CURVE SMOOTH"
 );
 }
 );
