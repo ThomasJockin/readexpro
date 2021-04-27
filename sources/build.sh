@@ -4,6 +4,21 @@ set -e
 
 ttDir=../fonts/ttf
 
+
+echo ".
+BUILD FONTS
+."
+
+gftools builder config.yaml
+
+ttfs=$(ls $ttDir/*-Regular.ttf)
+for font in $ttfs
+do
+	gftools fix-weightclass $font
+	[ -f $font.fix ] && mv $font.fix $font
+done 
+
+
 echo ".
 SUBSETTING STATICS
 ."
