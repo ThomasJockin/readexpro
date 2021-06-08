@@ -1,28 +1,12 @@
     sources:
       - Lexend.glyphs
-    familyName: Lexend
-    buildOTF: False
+    familyName: "Lexend Zetta"
+    vfDir: ../fonts/7families/zetta
+    buildStatic: False
+    buildWebfont: False
     axisOrder:
-      - LXND
       - wght
     stat:
-      - name: Lexend
-        tag: LXND
-        values:
-        - name: Deca
-          value: 0
-        - name: Exa
-          value: 40
-        - name: Giga
-          value: 56
-        - name: Mega
-          value: 64
-        - name: Peta
-          value: 72
-        - name: Tera
-          value: 80
-        - name: Zetta
-          value: 100
       - name: Weight
         tag: wght
         values:
@@ -44,4 +28,3 @@
           value: 700
         - name: ExtraBold
           value: 800
-          
