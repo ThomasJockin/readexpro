@@ -3,26 +3,26 @@
     buildOTF: False
     familyName: Lexend
     axisOrder:
-      - HEXP
+      # - HEXP
       - wght
     stat:
-      - name: Hyper Expansion
-        tag: HEXP
-        values:
-        - name: Deca
-          value: 0
-        - name: Exa
-          value: 40
-        - name: Giga
-          value: 56
-        - name: Mega
-          value: 64
-        - name: Peta
-          value: 72
-        - name: Tera
-          value: 80
-        - name: Zetta
-          value: 100
+      # - name: Hyper Expansion
+      #   tag: HEXP
+      #   values:
+      #   - name: Deca
+      #     value: 0
+      #   - name: Exa
+      #     value: 40
+      #   - name: Giga
+      #     value: 56
+      #   - name: Mega
+      #     value: 64
+      #   - name: Peta
+      #     value: 72
+      #   - name: Tera
+      #     value: 80
+      #   - name: Zetta
+      #     value: 100
       - name: Weight
         tag: wght
         values:

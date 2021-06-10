@@ -59,7 +59,8 @@ BUILD ALL STATICS, WEBFONTS, AND 2AXES VF
 ."
 
 gftools builder lexend.yaml
-
+fonttools varLib.instancer ../fonts/variable/$vf HEXP=0 --output ../fonts/variable/Lexend[wght].ttf
+rm ../fonts/variable/$vf
 
 # echo ".
 # SUBSETTING STATICS
