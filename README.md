@@ -11,17 +11,22 @@ Quicksand was improved in 2016 by Thomas Jockin for Google Fonts. Thomas modifie
 
 
 ## ChangeLog
-
 2018 April 9 (Thomas Jockin) Version 1.0
 
 - First public release
 
-2020 January 18 (Thomas Jockin) Version 1.1
+June 2021 (Font Bureau) Version 1.006
 
-- Expansion to Arabic script
+- Addition of weight axis (Thin, Light, Black masters)
 - Bug fixes in Latin Character Set
 
-2021 July 22 (Thomas Jockin)
+July 2021 (Thomas Jockin) Version 1.1
+
+- Expansion to Arabic script
+See <https://github.com/ThomasJockin/readexpro>
+
+
+2021 July 22 (Thomas Jockin) Version 1.2
 
 - Rename project to Readex Pro
 - Change in /a default design to two-story form. One story /a is avaliable as styltistic set 1
@@ -37,7 +42,7 @@ Quicksand was improved in 2016 by Thomas Jockin for Google Fonts. Thomas modifie
 
 ## Acknowledgements
 
-If you make modifications be sure to add your name (N), email (E), web-address (if you have one) (W) and description (D). This list is in alphabetical order.
+If you make modifications be sure to add your name (N), email (E), web-address (if you have one) (W) and description (D).
 
 N: Andrew Paglinawan  
 E: <andrew.paglinawan@gmail.com>   
@@ -52,9 +57,16 @@ D: Designer of Lexend (derived from Quicksand)
 N: Thomas Jockin  
 E: <thomas@thomasjockin.com>   
 W: <http://thomasjockin.com>  
-D: Designer of Lexend (derived from Quicksand) and Readex (derived from Lexend)
+D: Designer of Lexend (derived from Quicksand)
 
-N: Nadine Chahine 
+N: Nadine Chahine <br/>
 E: <nadine@arabictype.com>   
-W: <http://arabictype.com/>  
-D: Designer of Readex (derived from Lexend)
+W: <http://arabictype.com>  
+D: Designer of Readex Pro (Arabic of Readex PRo, derived from Lexend Latin)
+
+N: Font Bureau <br/>
+E: David Berlow <dberlow@fontbureau.com> <br/>
+E: Santiago Orozco <hi@typemade.com> <br/>
+E: Héctor Gómez <hector@typemade.com> <br/>
+W: <http://www.fontbureau.com/ReadingEdge> <br/>
+D: Designer of weight axis
