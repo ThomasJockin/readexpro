@@ -1,5 +1,8 @@
 {
 .appVersion = "3058";
+DisplayStrings = (
+"/space a/alef-ar/beh-ar/beh-ar/beh-ar/space/ain-ar/space/ain-ar/ain-ar"
+);
 classes = (
 {
 automatic = 1;
@@ -191054,31 +191057,59 @@ width = 192;
 );
 instances = (
 {
-interpolationWeight = 40;
+interpolationWeight = 50;
 interpolationWidth = 0;
 instanceInterpolations = {
-"E41BA830-E06B-4916-8D61-039D08A6FFE2" = 1;
+"5A878C7E-547A-4951-B48F-676DBBC9B762" = 0.15625;
+"E41BA830-E06B-4916-8D61-039D08A6FFE2" = 0.84375;
 };
 name = Light;
 weightClass = Light;
 },
 {
-interpolationWeight = 104;
+interpolationWeight = 75;
 interpolationWidth = 0;
 instanceInterpolations = {
-"5A878C7E-547A-4951-B48F-676DBBC9B762" = 1;
+"5A878C7E-547A-4951-B48F-676DBBC9B762" = 0.54688;
+"E41BA830-E06B-4916-8D61-039D08A6FFE2" = 0.45312;
 };
+name = Regular;
+},
+{
+interpolationWeight = 95;
+interpolationWidth = 0;
+instanceInterpolations = {
+"5A878C7E-547A-4951-B48F-676DBBC9B762" = 0.85938;
+"E41BA830-E06B-4916-8D61-039D08A6FFE2" = 0.14062;
+};
+isBold = 1;
+linkStyle = Light;
 name = Medium;
 weightClass = Medium;
 },
 {
-interpolationWeight = 152;
+interpolationWeight = 130;
 interpolationWidth = 0;
 instanceInterpolations = {
-"CC139F8F-4E38-4355-A9C7-97F3CAE4F8B4" = 1;
+"5A878C7E-547A-4951-B48F-676DBBC9B762" = 0.45833;
+"CC139F8F-4E38-4355-A9C7-97F3CAE4F8B4" = 0.54167;
 };
 isBold = 1;
-name = bold;
+linkStyle = Regular;
+name = SemiBold;
+weightClass = SemiBold;
+},
+{
+interpolationWeight = 165;
+interpolationWidth = 0;
+instanceInterpolations = {
+"5A878C7E-547A-4951-B48F-676DBBC9B762" = -0.13542;
+"CC139F8F-4E38-4355-A9C7-97F3CAE4F8B4" = 1.19345;
+"E41BA830-E06B-4916-8D61-039D08A6FFE2" = -0.05804;
+};
+isBold = 1;
+linkStyle = Medium;
+name = Bold;
 weightClass = Bold;
 }
 );
@@ -197045,6 +197076,7 @@ manufacturer = Lexend;
 manufacturerURL = "https://www.lexend.com";
 unitsPerEm = 1000;
 userData = {
+GSDontShowVersionAlert = 1;
 com.schriftgestaltung.Glyphs.groupsNotInFeature = (
 );
 com.schriftgestaltung.Glyphs.originalKerningGroups = {
