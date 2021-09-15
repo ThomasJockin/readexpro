@@ -1,5 +1,8 @@
 {
 .appVersion = "3098";
+DisplayStrings = (
+"/heh-ar.medi"
+);
 classes = (
 {
 automatic = 1;
@@ -110733,6 +110736,11 @@ nodes = (
 }
 );
 };
+components = (
+{
+name = _intersection;
+}
+);
 layerId = "60FFA52A-095B-47EE-98E9-9B5B7A5F3F54";
 paths = (
 {
