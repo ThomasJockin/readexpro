@@ -53,13 +53,13 @@ HEXP = {
 100 = 100;
 };
 wght = {
-156 = 40;
+160 = 40;
 200 = 50;
 300 = 76;
 400 = 104;
 500 = 123;
 600 = 142;
-700 = 152;
+700 = 161;
 };
 };
 },
@@ -210,6 +210,7 @@ alignmentZones = (
 );
 ascender = 740;
 capHeight = 700;
+custom = Thin;
 customParameters = (
 {
 name = typoAscender;
@@ -268,8 +269,8 @@ position = "{283, 851}";
 position = "{257, 762}";
 }
 );
+iconName = Light;
 id = "E41BA830-E06B-4916-8D61-039D08A6FFE2";
-weight = Light;
 weightValue = 40;
 widthValue = 0;
 xHeight = 525;
@@ -471,7 +472,7 @@ alignmentZones = (
 );
 ascender = 740;
 capHeight = 700;
-custom = Zetta;
+custom = "Zetta Thin";
 customParameters = (
 {
 name = typoAscender;
@@ -530,8 +531,6 @@ showMeasurement = 1;
 );
 iconName = SemiLight_Extended;
 id = "60FFA52A-095B-47EE-98E9-9B5B7A5F3F54";
-name = "Zetta Light";
-weight = SemiLight;
 weightValue = 40;
 xHeight = 525;
 },
@@ -166591,15 +166590,6 @@ instanceInterpolations = {
 };
 isBold = 1;
 name = Bold;
-weightClass = Bold;
-},
-{
-interpolationWeight = 161;
-instanceInterpolations = {
-"F0741901-C5E8-42E7-A5F2-E893972BE6B8" = 1;
-};
-isBold = 1;
-name = "Zetta Bold";
 weightClass = Bold;
 }
 );
