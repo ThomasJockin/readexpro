@@ -1,5 +1,5 @@
 {
-.appVersion = "3098";
+.appVersion = "3099";
 classes = (
 {
 automatic = 1;
@@ -7,7 +7,7 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 }
 );
-copyright = "Copyright 2019 The Readex PRo Project Authors (https://github.com/ThomasJockin/readexpro)";
+copyright = "Copyright 2019 The Readex Pro Project Authors (https://github.com/ThomasJockin/readexpro)";
 customParameters = (
 {
 name = fsType;
@@ -173651,5 +173651,5 @@ zero.zero
 };
 };
 versionMajor = 1;
-versionMinor = 201;
+versionMinor = 202;
 }
