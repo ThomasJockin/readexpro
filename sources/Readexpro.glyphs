@@ -1,5 +1,5 @@
 {
-.appVersion = "1286";
+.appVersion = "3100";
 classes = (
 {
 automatic = 1;
@@ -99162,9 +99162,11 @@ width = 643;
 {
 components = (
 {
+alignment = -1;
 name = "behDotless-ar.medi";
 },
 {
+alignment = -1;
 name = "hamzaabove-ar";
 transform = "{1.2, 0, 0, 1.2, 93, -279}";
 }
@@ -99246,9 +99248,11 @@ width = 643;
 {
 components = (
 {
+alignment = -1;
 name = "behDotless-ar.medi.wide";
 },
 {
+alignment = -1;
 name = "hamzaabove-ar";
 transform = "{1.2, 0, 0, 1.2, 115, -279}";
 }
@@ -173633,5 +173637,5 @@ zero.zero
 };
 };
 versionMajor = 1;
-versionMinor = 202;
+versionMinor = 203;
 }
