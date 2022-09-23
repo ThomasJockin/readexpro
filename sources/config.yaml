@@ -27,8 +27,6 @@ stat:
   - name: Weight
     tag: wght
     values:
-    - name: Thin
-      value: 100
     - name: ExtraLight
       value: 200
     - name: Light
@@ -43,7 +41,3 @@ stat:
       value: 600
     - name: Bold
       value: 700
-    - name: ExtraBold
-      value: 800
-    - name: Black
-      value: 900
