@@ -1,2 +1,6 @@
+'dff' Authors: 
+Nicolò Arrigo
+
+'ReadexPro' Original authors:
 Bonnie Shaver-Troup <bshavertroup@lexend.com>
 Thomas Jockin <thomas@thomasjockin.com>

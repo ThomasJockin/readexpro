@@ -9,6 +9,10 @@
 # Names should be added to this file as:
 # Name <email address>
 
+'dff' Contributors:
+Nicolò Arrigo
+
+'ReadexPro' Original contributors:
 Bonnie Shaver-Troup <bshavertroup@lexend.com>
 Thomas Jockin <thomas@thomasjockin.com>
 Nadine Chanine <nadine@arabictype.com>
