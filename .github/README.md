@@ -38,8 +38,8 @@ Showcase & Comparison:
 No requirements needed. <br>
 Download your font here, open the file and and follow the installation wizard. <br>
 Note: It's provided a single file that installs all the different instances of the weight axis.
-  * Download dffLentic [📥 Download] (recommended) <br>
-  * Download dffReef [📥 Download](https://github.com/horseDeveloper/DffReef/tree/master/dffFonts) (if your script has been added to Readex)
+  * Download dffLentic [📥 Download](https://github.com/horseDeveloper/DffLentic/tree/main/DffFonts) (recommended) <br>
+  * Download dffReef [📥 Download](https://github.com/horseDeveloper/DffReef/tree/master/DffFonts) (if your script has been added to Readex)
 
 Scripts added to ReadexPro (and dffReef consequently): 
 ```
@@ -53,7 +53,7 @@ If you prefer, you can always install the original fonts:<br>
 | Lexend | Single file that installs that installs all the different instances of the weight axis: [📥 Download](https://github.com/googlefonts/lexend/tree/main/fonts/lexend/variable) |
 | ReadexPro | Single file that installs all the different instances of the weight axis: [📥 Download](https://github.com/ThomasJockin/readexpro/tree/master/fonts/variable) |
 
-Enjoy!
+🎉 Enjoy!
 
 ## Alternatively, build your own fonts
 This project is a simple modification of the original work done through editing precompiled fonts. Original source files are untouched. Editing source files is outside the scope of this project.
