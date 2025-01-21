@@ -16,7 +16,19 @@ Read more: - [🔗 Official website - Lexend.com](https://www.lexend.com/) ; [�
 | Lexend | 100 → 900 | Thin 100; ExtraLight 200; Light 300; <br>Regular 400 (default);<br>Medium 500; Semibold 600; Bold 700; Extrabold 800; Black 900 |
 | ReadexPro | 160 → 700 | Extralight 200; Light 300; <br>Regular 400 (default); <br>Medium 500; Semibold 600; Bold 700 |
 
-| ==Lexend and ReadexPro are both unconventional [sans-serif](https://en.wikipedia.org/wiki/Sans-serif) typefaces as they make an exception for the uppercase 'i', giving it a [serif](https://en.wikipedia.org/wiki/Serif).== | ![Lexend-IL](https://github.com/user-attachments/assets/be949aeb-5d45-4b8a-9423-7dc827bbf81c) |
+As for the width axis, Lexend uses the following naming convention: <br>
+```
+Deca  • HEXP 0
+Exa   • HEXP 40
+Giga  • HEXP 56
+Mega  • HEXP 64
+Peta  • HEXP 72
+Tera  • HEXP 80
+Zetta • HEXP 100
+```
+Dff fonts are based on the "deca" version, the one with the least amount of hyper-expansion. <br>
+
+| Lexend and ReadexPro are both unconventional [sans-serif](https://en.wikipedia.org/wiki/Sans-serif) typefaces as they make an exception for the uppercase 'i', giving it a [serif](https://en.wikipedia.org/wiki/Serif). | ![Lexend-IL](https://github.com/user-attachments/assets/be949aeb-5d45-4b8a-9423-7dc827bbf81c) |
 |---|---|
 
 ## Dff Font Families
@@ -39,7 +51,7 @@ Showcase & Comparison:
 ## Install precompiled fonts
 No requirements needed. <br>
 Download your font here, open the file and and follow the installation wizard. <br>
-Note: It's provided a single file that installs all the different instances of the weight axis.
+Note: It's provided a single file that installs all the different instances of the weight axis. Each instance is based on "deca" width axis.
   * Download DffLentic [📥 Download](https://github.com/horseDeveloper/DffLentic/tree/main/DffFonts) (recommended) <br>
   * Download DffReef [📥 Download](https://github.com/horseDeveloper/DffReef/tree/master/DffFonts) (if your script has been added to Readex)
 
