@@ -10,20 +10,9 @@ stat:
   - name: Hyper Expansion
     tag: HEXP
     values:
-    - name: Deca
+    - name: Default
       value: 0
-    - name: Exa
-      value: 40
-    - name: Giga
-      value: 56
-    - name: Mega
-      value: 64
-    - name: Peta
-      value: 72
-    - name: Tera
-      value: 80
-    - name: Zetta
-      value: 100
+      flags: 2
   - name: Weight
     tag: wght
     values:
